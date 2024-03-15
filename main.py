@@ -7,11 +7,6 @@ from pages import *
 import time
 
 
-# with st.sidebar:
-#   st.button('HOME', use_container_width=True, type='primary')
-#   st.button('소비 패턴 분석', use_container_width=True, type='secondary')
-#   st.button('소비 예산 계획 도우미', use_container_width=True, type='secondary')
-
 if 'page' not in st.session_state: # 처음 페이지 들어가면 session_state가 비어있기 때문에 if not in문으로 키 'page'를 session_state에 할당해 시작페이지를 HOME으로 설정
   st.session_state['page'] = 'HOME'
 

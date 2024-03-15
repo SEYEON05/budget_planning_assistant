@@ -8,10 +8,11 @@ import time
 
 # 데이터 가오져는 함수
 @st.cache_data
-def get_datas():
-    data = pd.read_csv("student_spending (1).csv", index_col=0)
+def get_datas(name):
+    data = pd.read_csv(name, index_col=0)
     return data
-data = get_datas()
+data = get_datas("student_spending (1).csv")
+analyzed_data = get_datas("profit_spending.csv")
 
 def txt_gen(txt):
   for t in list(txt):
@@ -38,6 +39,7 @@ def home():
   st.markdown("2. 1000명의 대학생들의 소비 행태 데이터를 사용합니다.")
   st.markdown("3. **소비 패턴 분석**: Pandas와 Streamlit을 활용해 소비 패턴 분석 및 시각화를 효과적으로 전달합니다.")
   st.markdown("4. **예산 계획 도우미**: 사용자 입력(월수입, 저축액)을 받아 합리적 예산 분배를 제안합니다.")
+
 # 소비 습관 분석 페이지
 def pattern_analyis():
   st.title('소비 패턴 분석')
@@ -50,31 +52,74 @@ def pattern_analyis():
     tmp[col] = pd.to_numeric(tmp[col], errors='coerce')
   
   # 안 쓰는 컬럼 ['tuition', 'monthly_income', 'financial_aid'] 제거
-  tmp = tmp[tmp.columns].drop(columns=['tuition', 'monthly_income', 'financial_aid'])
+  fixed_spending_cols = ['housing', 'personal_care', 'technology', 'health_wellness']
+  variable_spending_col = ['food', 'transportation', 'books_supplies', 'entertainment', 'miscellaneous']
+  tmp = tmp[tmp.columns].drop(columns=['tuition'])
+
+
+  # monthly_income과 financial_aid에 따른 소득 형태
+  st.divider()
+  st.subheader("고정지출과 변동지출 그래프")
+  tmp_total_profit = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
   
+  sns.set_theme(style="whitegrid")
+
+  h = sns.catplot(
+    data=analyzed_data, kind='bar',
+    x='year_in_school', y='total_variable_spending', hue='gender',
+    errorbar='sd', palette='dark', alpha=.6, height=6
+  )
+  h.despine(left=True)
+  h.set_axis_labels("age", "savings")
+  with st.container(border=True):
+    st.line_chart(tmp_total_profit)
+    st.pyplot(h)
+
+
   # 셀렉트박스 중 하나를 선택 시, 스탠다드를 기준으로 평균치가 계산되게
   # standard = st.selectbox('항목을 선택하세요.', ("age", "gender", "year_in_school", "major", "preferred_payment_method"))
+  st.divider()
+  st.subheader("기본 정보에 따른 소비 형태")
   standard = st.selectbox('항목을 선택하세요.', ("Age", "Gender", "Year_in_School", "Major", "Preferred_Payment_Method")).lower()
-  
-  standard_cols = ['age', 'gender', 'year_in_school', 'major', 'preferred_payment_method']
+  standard_cols = ['age', 'gender', 'year_in_school', 'major', 'preferred_payment_method', 'monthly_income', 'financial_aid']
   
   if standard in standard_cols:
     cols_to_drop = [col for col in standard_cols if col != standard]
     tmp = tmp[tmp.columns].drop(columns=cols_to_drop)
-    st.divider()
     st.markdown(f"**{standard} 에 따른 소비 형태**")
   # st.write(tmp)
   tmp_mean = tmp.groupby(standard).mean()
   tmp_mean_T = tmp_mean.T
   with st.container(border=True):
     st.line_chart(tmp_mean_T, height=600)
+    
+  # seaborn을 사용한 그래프 그리기 시도, 결과: 별로
+  # fig, ax = plt.subplots()
+  # sns.lineplot(data=tmp_mean_T)
+  # ax.set_title(f"**{standard} 에 따른 소비 형태**")
+  # st.pyplot(fig)
 
-    # seaborn을 사용한 그래프 그리기 시도, 결과: 별로
-    # fig, ax = plt.subplots()
-    # sns.lineplot(data=tmp_mean_T)
-    # ax.set_title(f"**{standard} 에 따른 소비 형태**")
-    # st.pyplot(fig)
 
+  st.divider()
+  st.subheader("수입과 지출 분석")
+  sns.set_theme()
+
+  g = sns.lmplot(
+    data=analyzed_data,
+    x="total_profit", y="total_spending", hue=standard,
+    height=7
+  )
+  g.set_axis_labels("total_profit", "total_spending")
+  with st.container(border=True):  
+    st.pyplot(g)
+    if standard == 'preferred_payment_method':
+      st.info("선호 지출 방식에 따른 수입-지출 분석 결과")
+      st.markdown("카드를 사용하는 사용자가 가장 많은 지출을 하는 것으로 분석된다.")
+
+  st.divider()
+  st.subheader("수입과 저축 분석")
+  with st.container(border=True):
+    st.area_chart(analyzed_data, x='total_profit', y='savings')
 
 # 예산 계획 도우미 페이지
 def planner():

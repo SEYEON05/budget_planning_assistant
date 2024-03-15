@@ -1,0 +1,1001 @@
+﻿,age,gender,year_in_school,major,preferred_payment_method,total_profit,total_fixed_spending,total_variable_spending,total_spending,savings
+0,19,Non-binary,Freshman,Psychology,Credit/Debit Card,1228,1048,720,1768,-540
+1,24,Female,Junior,Economics,Credit/Debit Card,1881,1004,844,1848,33
+2,24,Non-binary,Junior,Economics,Cash,1662,1040,719,1759,-97
+3,23,Female,Senior,Computer Science,Mobile Payment App,882,950,780,1730,-848
+4,20,Female,Senior,Computer Science,Credit/Debit Card,1332,1055,886,1941,-609
+5,25,Non-binary,Sophomore,Computer Science,Mobile Payment App,1313,793,811,1604,-291
+6,23,Female,Freshman,Engineering,Credit/Debit Card,1423,1124,781,1905,-482
+7,23,Female,Junior,Economics,Mobile Payment App,1379,869,711,1580,-201
+8,22,Non-binary,Senior,Computer Science,Credit/Debit Card,1650,974,908,1882,-232
+9,18,Female,Junior,Computer Science,Mobile Payment App,1497,977,736,1713,-216
+10,23,Male,Junior,Biology,Credit/Debit Card,1377,1021,651,1672,-295
+11,25,Male,Freshman,Engineering,Credit/Debit Card,1087,1193,874,2067,-980
+12,21,Male,Sophomore,Economics,Credit/Debit Card,1259,1135,681,1816,-557
+13,19,Female,Junior,Biology,Mobile Payment App,2035,1027,681,1708,327
+14,24,Non-binary,Freshman,Economics,Cash,1571,967,547,1514,57
+15,22,Non-binary,Sophomore,Computer Science,Cash,1253,1207,890,2097,-844
+16,23,Female,Freshman,Psychology,Cash,1656,1375,854,2229,-573
+17,21,Female,Freshman,Computer Science,Mobile Payment App,2305,902,734,1636,669
+18,19,Female,Sophomore,Psychology,Credit/Debit Card,1798,1229,651,1880,-82
+19,20,Female,Senior,Engineering,Mobile Payment App,1558,1228,774,2002,-444
+20,19,Male,Junior,Psychology,Credit/Debit Card,1912,900,613,1513,399
+21,24,Male,Sophomore,Computer Science,Mobile Payment App,1065,989,987,1976,-911
+22,18,Non-binary,Sophomore,Biology,Cash,1835,778,667,1445,390
+23,24,Non-binary,Senior,Economics,Credit/Debit Card,867,837,751,1588,-721
+24,19,Female,Senior,Economics,Mobile Payment App,1118,1138,611,1749,-631
+25,25,Female,Junior,Biology,Mobile Payment App,1582,1240,923,2163,-581
+26,20,Male,Senior,Economics,Credit/Debit Card,1357,1043,836,1879,-522
+27,20,Female,Junior,Psychology,Credit/Debit Card,1501,992,937,1929,-428
+28,24,Non-binary,Sophomore,Psychology,Credit/Debit Card,1576,726,695,1421,155
+29,23,Non-binary,Junior,Engineering,Mobile Payment App,979,981,905,1886,-907
+30,23,Non-binary,Freshman,Economics,Mobile Payment App,1429,958,715,1673,-244
+31,23,Male,Sophomore,Psychology,Mobile Payment App,1767,991,747,1738,29
+32,24,Non-binary,Junior,Computer Science,Credit/Debit Card,1077,1135,722,1857,-780
+33,25,Female,Freshman,Economics,Cash,1448,928,905,1833,-385
+34,23,Male,Junior,Biology,Mobile Payment App,1728,871,727,1598,130
+35,21,Male,Freshman,Biology,Cash,1648,1036,804,1840,-192
+36,22,Male,Sophomore,Engineering,Cash,2025,928,1140,2068,-43
+37,23,Non-binary,Senior,Computer Science,Cash,1574,974,772,1746,-172
+38,21,Female,Senior,Biology,Cash,1216,1118,666,1784,-568
+39,20,Female,Senior,Engineering,Mobile Payment App,992,1036,681,1717,-725
+40,24,Female,Freshman,Engineering,Mobile Payment App,723,935,747,1682,-959
+41,25,Male,Sophomore,Economics,Cash,944,763,841,1604,-660
+42,23,Female,Sophomore,Economics,Cash,1723,1048,719,1767,-44
+43,23,Male,Junior,Psychology,Credit/Debit Card,1451,819,1045,1864,-413
+44,23,Female,Senior,Economics,Credit/Debit Card,2166,984,736,1720,446
+45,18,Male,Freshman,Computer Science,Credit/Debit Card,1277,949,767,1716,-439
+46,25,Non-binary,Freshman,Psychology,Cash,1398,853,722,1575,-177
+47,19,Male,Senior,Psychology,Mobile Payment App,1940,1257,531,1788,152
+48,25,Male,Junior,Psychology,Cash,1296,1265,512,1777,-481
+49,24,Female,Junior,Economics,Mobile Payment App,799,817,593,1410,-611
+50,20,Female,Junior,Engineering,Cash,2100,1221,751,1972,128
+51,21,Non-binary,Freshman,Economics,Credit/Debit Card,1930,1039,494,1533,397
+52,19,Male,Senior,Computer Science,Cash,1329,1148,562,1710,-381
+53,18,Male,Freshman,Psychology,Mobile Payment App,2112,1023,370,1393,719
+54,24,Non-binary,Senior,Engineering,Mobile Payment App,1031,1203,945,2148,-1117
+55,22,Female,Sophomore,Engineering,Cash,1443,1231,1021,2252,-809
+56,24,Non-binary,Freshman,Computer Science,Cash,1554,1101,718,1819,-265
+57,20,Male,Sophomore,Economics,Mobile Payment App,1811,1339,889,2228,-417
+58,25,Non-binary,Sophomore,Biology,Mobile Payment App,718,868,905,1773,-1055
+59,20,Female,Junior,Biology,Mobile Payment App,1665,1013,846,1859,-194
+60,20,Male,Junior,Engineering,Mobile Payment App,2097,750,584,1334,763
+61,23,Female,Junior,Engineering,Mobile Payment App,1399,1101,677,1778,-379
+62,18,Female,Senior,Biology,Cash,1571,1457,956,2413,-842
+63,20,Non-binary,Freshman,Economics,Mobile Payment App,2050,662,811,1473,577
+64,19,Female,Junior,Computer Science,Mobile Payment App,1365,698,605,1303,62
+65,19,Male,Freshman,Biology,Mobile Payment App,1642,1399,817,2216,-574
+66,24,Male,Freshman,Economics,Mobile Payment App,1330,1082,687,1769,-439
+67,21,Female,Junior,Engineering,Credit/Debit Card,1325,859,820,1679,-354
+68,23,Male,Senior,Engineering,Mobile Payment App,1288,1126,698,1824,-536
+69,22,Male,Junior,Economics,Mobile Payment App,1290,1467,644,2111,-821
+70,19,Male,Freshman,Economics,Mobile Payment App,2096,811,786,1597,499
+71,21,Non-binary,Sophomore,Computer Science,Cash,2040,964,995,1959,81
+72,23,Non-binary,Sophomore,Economics,Cash,1791,1029,734,1763,28
+73,22,Female,Freshman,Biology,Mobile Payment App,1980,1193,678,1871,109
+74,25,Female,Sophomore,Engineering,Credit/Debit Card,1415,1109,658,1767,-352
+75,19,Female,Senior,Computer Science,Cash,1796,1036,562,1598,198
+76,22,Male,Sophomore,Computer Science,Cash,1845,991,804,1795,50
+77,24,Female,Sophomore,Computer Science,Credit/Debit Card,938,917,427,1344,-406
+78,22,Non-binary,Senior,Economics,Cash,1053,1242,643,1885,-832
+79,23,Non-binary,Junior,Economics,Cash,1521,916,966,1882,-361
+80,18,Female,Freshman,Biology,Mobile Payment App,2078,898,725,1623,455
+81,19,Female,Junior,Biology,Mobile Payment App,1977,1052,732,1784,193
+82,24,Non-binary,Senior,Biology,Cash,1776,1391,688,2079,-303
+83,19,Male,Freshman,Computer Science,Mobile Payment App,1507,1010,548,1558,-51
+84,22,Female,Freshman,Biology,Mobile Payment App,1698,962,698,1660,38
+85,25,Non-binary,Senior,Computer Science,Credit/Debit Card,2278,1164,861,2025,253
+86,25,Non-binary,Sophomore,Computer Science,Credit/Debit Card,1284,1040,851,1891,-607
+87,25,Female,Junior,Computer Science,Credit/Debit Card,870,1251,766,2017,-1147
+88,20,Female,Junior,Economics,Mobile Payment App,1581,972,913,1885,-304
+89,23,Male,Sophomore,Economics,Credit/Debit Card,1733,917,487,1404,329
+90,18,Non-binary,Junior,Psychology,Credit/Debit Card,1715,1135,716,1851,-136
+91,19,Male,Senior,Economics,Cash,1398,708,986,1694,-296
+92,23,Non-binary,Sophomore,Economics,Mobile Payment App,2198,1246,777,2023,175
+93,18,Male,Sophomore,Economics,Mobile Payment App,1847,1230,583,1813,34
+94,18,Female,Senior,Computer Science,Credit/Debit Card,2184,1196,621,1817,367
+95,18,Female,Junior,Engineering,Credit/Debit Card,1548,1096,572,1668,-120
+96,20,Male,Freshman,Economics,Credit/Debit Card,2118,1041,649,1690,428
+97,18,Non-binary,Sophomore,Biology,Credit/Debit Card,1224,1247,893,2140,-916
+98,24,Female,Senior,Biology,Cash,1385,1206,549,1755,-370
+99,23,Male,Junior,Psychology,Mobile Payment App,1599,1177,676,1853,-254
+100,22,Male,Sophomore,Psychology,Cash,1564,1485,706,2191,-627
+101,23,Female,Senior,Psychology,Mobile Payment App,1552,934,814,1748,-196
+102,20,Female,Sophomore,Psychology,Cash,1069,1031,813,1844,-775
+103,25,Male,Junior,Psychology,Cash,875,1094,683,1777,-902
+104,21,Female,Junior,Psychology,Mobile Payment App,1794,857,798,1655,139
+105,21,Female,Senior,Computer Science,Cash,1217,857,893,1750,-533
+106,25,Female,Senior,Psychology,Mobile Payment App,1242,682,950,1632,-390
+107,21,Male,Junior,Biology,Mobile Payment App,883,1260,833,2093,-1210
+108,20,Male,Sophomore,Computer Science,Mobile Payment App,1287,632,521,1153,134
+109,24,Male,Senior,Psychology,Credit/Debit Card,1297,1362,642,2004,-707
+110,22,Male,Sophomore,Economics,Mobile Payment App,1523,852,890,1742,-219
+111,23,Non-binary,Senior,Economics,Credit/Debit Card,2222,953,595,1548,674
+112,19,Female,Senior,Psychology,Credit/Debit Card,821,1386,501,1887,-1066
+113,21,Female,Freshman,Computer Science,Cash,975,1301,1032,2333,-1358
+114,21,Male,Junior,Engineering,Mobile Payment App,1395,871,689,1560,-165
+115,22,Male,Freshman,Biology,Mobile Payment App,2075,1261,905,2166,-91
+116,22,Female,Sophomore,Engineering,Cash,1396,956,775,1731,-335
+117,18,Non-binary,Senior,Engineering,Credit/Debit Card,1270,1220,791,2011,-741
+118,21,Female,Senior,Engineering,Credit/Debit Card,1987,1211,525,1736,251
+119,24,Female,Freshman,Psychology,Mobile Payment App,1978,867,649,1516,462
+120,23,Female,Freshman,Psychology,Mobile Payment App,1093,970,767,1737,-644
+121,24,Non-binary,Freshman,Biology,Mobile Payment App,2427,1141,720,1861,566
+122,25,Non-binary,Junior,Computer Science,Cash,1523,1040,897,1937,-414
+123,22,Non-binary,Senior,Economics,Credit/Debit Card,1260,1010,834,1844,-584
+124,23,Male,Senior,Biology,Mobile Payment App,1896,1248,871,2119,-223
+125,20,Female,Freshman,Engineering,Credit/Debit Card,1781,885,717,1602,179
+126,20,Male,Sophomore,Biology,Cash,1456,893,798,1691,-235
+127,22,Male,Junior,Engineering,Credit/Debit Card,1741,1388,795,2183,-442
+128,20,Non-binary,Senior,Engineering,Credit/Debit Card,1760,823,857,1680,80
+129,22,Non-binary,Sophomore,Computer Science,Credit/Debit Card,1933,954,688,1642,291
+130,22,Non-binary,Senior,Biology,Credit/Debit Card,1210,1395,817,2212,-1002
+131,25,Male,Senior,Engineering,Credit/Debit Card,1059,962,624,1586,-527
+132,25,Female,Junior,Psychology,Mobile Payment App,2027,780,847,1627,400
+133,22,Female,Freshman,Engineering,Mobile Payment App,2449,903,799,1702,747
+134,24,Male,Junior,Economics,Mobile Payment App,859,986,595,1581,-722
+135,24,Female,Senior,Psychology,Mobile Payment App,786,930,559,1489,-703
+136,23,Male,Junior,Computer Science,Mobile Payment App,1974,1214,699,1913,61
+137,24,Female,Sophomore,Psychology,Cash,1659,812,999,1811,-152
+138,18,Female,Sophomore,Economics,Credit/Debit Card,1635,1013,613,1626,9
+139,21,Male,Sophomore,Psychology,Cash,901,914,714,1628,-727
+140,22,Male,Junior,Computer Science,Mobile Payment App,1153,1050,493,1543,-390
+141,23,Male,Sophomore,Computer Science,Cash,1464,1144,618,1762,-298
+142,25,Male,Junior,Psychology,Mobile Payment App,1108,1086,902,1988,-880
+143,24,Male,Senior,Computer Science,Cash,1549,859,575,1434,115
+144,23,Female,Senior,Engineering,Cash,907,1006,664,1670,-763
+145,18,Male,Senior,Biology,Cash,2236,1379,776,2155,81
+146,23,Male,Senior,Biology,Credit/Debit Card,1724,773,472,1245,479
+147,21,Male,Freshman,Engineering,Credit/Debit Card,1226,1359,789,2148,-922
+148,24,Male,Sophomore,Computer Science,Credit/Debit Card,1117,1155,899,2054,-937
+149,21,Non-binary,Freshman,Psychology,Mobile Payment App,2019,1052,779,1831,188
+150,23,Non-binary,Senior,Biology,Credit/Debit Card,1973,1333,895,2228,-255
+151,21,Male,Freshman,Computer Science,Cash,1029,1126,667,1793,-764
+152,21,Female,Senior,Engineering,Credit/Debit Card,1381,1184,930,2114,-733
+153,19,Non-binary,Junior,Economics,Mobile Payment App,1446,764,769,1533,-87
+154,19,Female,Freshman,Psychology,Cash,2122,998,632,1630,492
+155,22,Female,Freshman,Economics,Credit/Debit Card,1773,639,753,1392,381
+156,19,Female,Sophomore,Biology,Credit/Debit Card,1078,1242,695,1937,-859
+157,20,Male,Sophomore,Economics,Mobile Payment App,1016,1063,835,1898,-882
+158,18,Male,Junior,Engineering,Credit/Debit Card,1071,1123,655,1778,-707
+159,25,Female,Senior,Psychology,Mobile Payment App,1437,1308,644,1952,-515
+160,23,Female,Junior,Economics,Credit/Debit Card,1836,965,777,1742,94
+161,25,Non-binary,Senior,Computer Science,Cash,1237,1068,454,1522,-285
+162,23,Female,Junior,Economics,Credit/Debit Card,933,927,691,1618,-685
+163,19,Non-binary,Senior,Biology,Cash,2170,1002,668,1670,500
+164,18,Female,Sophomore,Economics,Cash,1102,1050,722,1772,-670
+165,19,Non-binary,Freshman,Engineering,Cash,1252,905,990,1895,-643
+166,23,Male,Sophomore,Biology,Cash,1371,1061,751,1812,-441
+167,20,Male,Freshman,Psychology,Cash,1917,722,647,1369,548
+168,19,Male,Freshman,Economics,Credit/Debit Card,835,1015,1057,2072,-1237
+169,24,Female,Freshman,Economics,Cash,1546,892,807,1699,-153
+170,21,Non-binary,Sophomore,Psychology,Cash,1077,1379,784,2163,-1086
+171,25,Female,Senior,Engineering,Mobile Payment App,1097,880,662,1542,-445
+172,19,Non-binary,Freshman,Psychology,Mobile Payment App,724,830,614,1444,-720
+173,20,Male,Freshman,Psychology,Mobile Payment App,1380,1058,775,1833,-453
+174,21,Non-binary,Junior,Biology,Credit/Debit Card,1882,1276,933,2209,-327
+175,23,Male,Sophomore,Biology,Cash,1834,1173,777,1950,-116
+176,18,Female,Junior,Engineering,Mobile Payment App,1904,1276,443,1719,185
+177,18,Male,Freshman,Economics,Credit/Debit Card,1284,964,780,1744,-460
+178,23,Non-binary,Senior,Economics,Cash,1624,1123,970,2093,-469
+179,21,Male,Freshman,Engineering,Cash,2198,761,697,1458,740
+180,25,Female,Junior,Engineering,Mobile Payment App,1994,1213,823,2036,-42
+181,20,Female,Junior,Biology,Mobile Payment App,1928,1255,644,1899,29
+182,24,Female,Freshman,Economics,Credit/Debit Card,1637,1075,853,1928,-291
+183,24,Non-binary,Junior,Economics,Mobile Payment App,1526,1074,905,1979,-453
+184,22,Female,Senior,Biology,Credit/Debit Card,1046,1278,881,2159,-1113
+185,25,Female,Junior,Economics,Mobile Payment App,2292,1178,604,1782,510
+186,24,Female,Sophomore,Biology,Credit/Debit Card,1406,1190,796,1986,-580
+187,23,Male,Sophomore,Economics,Cash,1037,1363,887,2250,-1213
+188,24,Non-binary,Senior,Engineering,Cash,2265,782,754,1536,729
+189,22,Non-binary,Sophomore,Psychology,Credit/Debit Card,1291,1057,773,1830,-539
+190,21,Male,Senior,Biology,Mobile Payment App,2242,1101,663,1764,478
+191,21,Non-binary,Sophomore,Biology,Credit/Debit Card,976,1072,470,1542,-566
+192,19,Male,Freshman,Economics,Credit/Debit Card,2259,1198,700,1898,361
+193,22,Female,Freshman,Computer Science,Credit/Debit Card,2254,1354,803,2157,97
+194,24,Male,Freshman,Computer Science,Cash,1859,1368,900,2268,-409
+195,23,Female,Junior,Computer Science,Cash,1565,1034,570,1604,-39
+196,20,Female,Junior,Psychology,Cash,1151,854,692,1546,-395
+197,21,Male,Freshman,Biology,Credit/Debit Card,1378,1104,1089,2193,-815
+198,24,Male,Senior,Biology,Credit/Debit Card,1444,1262,948,2210,-766
+199,25,Female,Junior,Engineering,Credit/Debit Card,780,1010,565,1575,-795
+200,19,Non-binary,Freshman,Computer Science,Cash,1415,781,693,1474,-59
+201,24,Female,Senior,Economics,Credit/Debit Card,2010,1023,773,1796,214
+202,24,Male,Freshman,Computer Science,Credit/Debit Card,1191,1221,654,1875,-684
+203,23,Female,Junior,Biology,Credit/Debit Card,1279,1312,811,2123,-844
+204,24,Female,Senior,Economics,Cash,1318,1296,879,2175,-857
+205,20,Female,Senior,Psychology,Mobile Payment App,1230,854,967,1821,-591
+206,24,Non-binary,Sophomore,Psychology,Mobile Payment App,1440,839,693,1532,-92
+207,19,Male,Senior,Psychology,Cash,1351,1116,658,1774,-423
+208,18,Male,Sophomore,Computer Science,Credit/Debit Card,1189,951,690,1641,-452
+209,19,Non-binary,Junior,Psychology,Cash,1372,1140,774,1914,-542
+210,18,Non-binary,Freshman,Psychology,Credit/Debit Card,1672,926,717,1643,29
+211,21,Male,Junior,Biology,Mobile Payment App,1629,884,656,1540,89
+212,25,Male,Sophomore,Biology,Credit/Debit Card,2195,1054,696,1750,445
+213,20,Female,Junior,Biology,Credit/Debit Card,1038,940,562,1502,-464
+214,24,Female,Senior,Economics,Cash,1934,683,372,1055,879
+215,18,Non-binary,Junior,Economics,Mobile Payment App,1033,1162,553,1715,-682
+216,21,Male,Junior,Computer Science,Credit/Debit Card,2236,825,864,1689,547
+217,19,Female,Junior,Psychology,Mobile Payment App,1753,966,853,1819,-66
+218,25,Female,Sophomore,Computer Science,Credit/Debit Card,1531,1382,674,2056,-525
+219,25,Non-binary,Sophomore,Economics,Credit/Debit Card,874,1258,810,2068,-1194
+220,25,Female,Junior,Economics,Mobile Payment App,1502,783,688,1471,31
+221,23,Male,Senior,Economics,Mobile Payment App,1371,934,551,1485,-114
+222,21,Male,Sophomore,Computer Science,Credit/Debit Card,1707,944,613,1557,150
+223,24,Male,Sophomore,Computer Science,Cash,1300,1129,844,1973,-673
+224,25,Non-binary,Freshman,Engineering,Credit/Debit Card,1024,1191,841,2032,-1008
+225,23,Male,Junior,Engineering,Credit/Debit Card,2109,1441,599,2040,69
+226,25,Non-binary,Sophomore,Economics,Mobile Payment App,1636,1258,678,1936,-300
+227,22,Male,Sophomore,Economics,Mobile Payment App,889,1423,881,2304,-1415
+228,21,Female,Senior,Psychology,Credit/Debit Card,1571,987,685,1672,-101
+229,22,Non-binary,Junior,Biology,Credit/Debit Card,1288,983,656,1639,-351
+230,18,Female,Sophomore,Biology,Cash,767,1072,712,1784,-1017
+231,20,Male,Freshman,Economics,Credit/Debit Card,1221,963,576,1539,-318
+232,22,Female,Senior,Economics,Cash,1435,724,822,1546,-111
+233,22,Female,Junior,Computer Science,Credit/Debit Card,1549,1092,714,1806,-257
+234,24,Non-binary,Junior,Engineering,Credit/Debit Card,1744,1164,904,2068,-324
+235,24,Female,Junior,Economics,Credit/Debit Card,1157,1228,766,1994,-837
+236,21,Male,Sophomore,Computer Science,Cash,1577,973,740,1713,-136
+237,18,Non-binary,Senior,Psychology,Credit/Debit Card,912,1025,658,1683,-771
+238,25,Male,Sophomore,Economics,Mobile Payment App,958,839,768,1607,-649
+239,25,Male,Senior,Computer Science,Mobile Payment App,1029,995,765,1760,-731
+240,24,Female,Sophomore,Psychology,Mobile Payment App,1920,695,785,1480,440
+241,21,Non-binary,Freshman,Biology,Cash,1797,962,968,1930,-133
+242,22,Male,Junior,Computer Science,Cash,2154,1335,529,1864,290
+243,23,Non-binary,Sophomore,Psychology,Cash,1117,1076,760,1836,-719
+244,20,Female,Junior,Engineering,Cash,1845,1009,713,1722,123
+245,24,Male,Junior,Biology,Mobile Payment App,1624,1274,510,1784,-160
+246,19,Non-binary,Sophomore,Biology,Mobile Payment App,1363,790,723,1513,-150
+247,20,Non-binary,Freshman,Computer Science,Mobile Payment App,1447,1046,543,1589,-142
+248,24,Non-binary,Senior,Computer Science,Cash,1797,1010,926,1936,-139
+249,19,Male,Freshman,Psychology,Mobile Payment App,1905,1015,752,1767,138
+250,24,Non-binary,Junior,Biology,Cash,792,872,867,1739,-947
+251,21,Female,Sophomore,Biology,Mobile Payment App,1111,777,616,1393,-282
+252,18,Female,Junior,Computer Science,Credit/Debit Card,1988,854,652,1506,482
+253,20,Male,Junior,Computer Science,Mobile Payment App,2151,1032,547,1579,572
+254,21,Non-binary,Junior,Psychology,Credit/Debit Card,1167,618,706,1324,-157
+255,22,Non-binary,Freshman,Biology,Credit/Debit Card,1079,1164,867,2031,-952
+256,18,Non-binary,Senior,Economics,Credit/Debit Card,1512,1274,846,2120,-608
+257,19,Male,Freshman,Engineering,Credit/Debit Card,1220,1300,501,1801,-581
+258,23,Male,Sophomore,Computer Science,Cash,1881,1171,874,2045,-164
+259,20,Female,Sophomore,Psychology,Credit/Debit Card,1304,1103,1023,2126,-822
+260,21,Non-binary,Sophomore,Engineering,Mobile Payment App,1493,1147,729,1876,-383
+261,20,Male,Junior,Engineering,Mobile Payment App,965,1234,656,1890,-925
+262,24,Male,Junior,Computer Science,Mobile Payment App,1410,1299,587,1886,-476
+263,21,Male,Freshman,Economics,Mobile Payment App,1485,1344,781,2125,-640
+264,22,Male,Senior,Engineering,Credit/Debit Card,1882,1297,630,1927,-45
+265,25,Female,Junior,Engineering,Cash,1743,1339,842,2181,-438
+266,23,Male,Freshman,Engineering,Mobile Payment App,2311,1054,629,1683,628
+267,22,Female,Senior,Psychology,Mobile Payment App,1776,1120,980,2100,-324
+268,19,Non-binary,Junior,Computer Science,Mobile Payment App,1640,1298,715,2013,-373
+269,23,Non-binary,Senior,Computer Science,Mobile Payment App,1879,1162,670,1832,47
+270,20,Female,Freshman,Computer Science,Credit/Debit Card,2443,995,696,1691,752
+271,24,Male,Junior,Biology,Cash,1775,631,518,1149,626
+272,23,Non-binary,Senior,Biology,Cash,1135,1510,568,2078,-943
+273,21,Non-binary,Senior,Biology,Cash,1534,812,738,1550,-16
+274,22,Non-binary,Junior,Biology,Mobile Payment App,1088,687,632,1319,-231
+275,18,Non-binary,Senior,Computer Science,Cash,1324,755,625,1380,-56
+276,25,Non-binary,Sophomore,Psychology,Credit/Debit Card,2287,825,1045,1870,417
+277,18,Female,Freshman,Biology,Credit/Debit Card,1829,1121,680,1801,28
+278,25,Female,Sophomore,Psychology,Mobile Payment App,1915,706,818,1524,391
+279,24,Female,Freshman,Engineering,Credit/Debit Card,1920,1404,591,1995,-75
+280,20,Female,Senior,Computer Science,Mobile Payment App,971,1281,672,1953,-982
+281,20,Female,Junior,Biology,Credit/Debit Card,1866,1111,590,1701,165
+282,19,Female,Junior,Engineering,Credit/Debit Card,1912,1196,835,2031,-119
+283,23,Male,Senior,Psychology,Cash,2068,1186,868,2054,14
+284,20,Female,Sophomore,Economics,Cash,1426,789,816,1605,-179
+285,18,Non-binary,Freshman,Economics,Mobile Payment App,1691,1301,733,2034,-343
+286,22,Female,Freshman,Biology,Cash,954,1131,936,2067,-1113
+287,23,Male,Junior,Psychology,Mobile Payment App,1901,879,624,1503,398
+288,21,Non-binary,Sophomore,Biology,Cash,2060,1327,978,2305,-245
+289,20,Male,Senior,Psychology,Cash,1073,936,847,1783,-710
+290,22,Non-binary,Senior,Engineering,Mobile Payment App,939,1166,758,1924,-985
+291,24,Female,Sophomore,Economics,Mobile Payment App,1178,779,670,1449,-271
+292,25,Female,Sophomore,Economics,Credit/Debit Card,1913,1143,579,1722,191
+293,25,Female,Freshman,Biology,Credit/Debit Card,1023,1186,756,1942,-919
+294,20,Male,Senior,Psychology,Cash,1547,982,1003,1985,-438
+295,19,Male,Sophomore,Psychology,Mobile Payment App,2125,1029,536,1565,560
+296,20,Female,Sophomore,Economics,Credit/Debit Card,1340,695,755,1450,-110
+297,18,Male,Freshman,Biology,Credit/Debit Card,1314,1064,770,1834,-520
+298,24,Non-binary,Senior,Economics,Credit/Debit Card,1465,700,1070,1770,-305
+299,22,Non-binary,Sophomore,Biology,Mobile Payment App,1275,794,657,1451,-176
+300,21,Non-binary,Senior,Economics,Credit/Debit Card,1140,877,919,1796,-656
+301,18,Male,Junior,Biology,Cash,1227,1267,577,1844,-617
+302,25,Female,Freshman,Computer Science,Mobile Payment App,2387,1047,648,1695,692
+303,20,Male,Senior,Economics,Mobile Payment App,2269,1057,624,1681,588
+304,21,Male,Sophomore,Psychology,Credit/Debit Card,2056,1114,755,1869,187
+305,19,Female,Senior,Biology,Credit/Debit Card,1336,1278,743,2021,-685
+306,21,Female,Sophomore,Engineering,Credit/Debit Card,1727,1045,1039,2084,-357
+307,21,Male,Senior,Psychology,Mobile Payment App,2055,1132,965,2097,-42
+308,25,Male,Junior,Economics,Cash,1409,863,663,1526,-117
+309,25,Non-binary,Junior,Engineering,Credit/Debit Card,1362,956,603,1559,-197
+310,20,Non-binary,Senior,Engineering,Cash,1178,944,579,1523,-345
+311,25,Non-binary,Senior,Biology,Credit/Debit Card,2309,1147,691,1838,471
+312,24,Male,Junior,Computer Science,Credit/Debit Card,978,1302,725,2027,-1049
+313,21,Male,Freshman,Engineering,Mobile Payment App,1981,888,831,1719,262
+314,22,Female,Freshman,Psychology,Mobile Payment App,857,1248,631,1879,-1022
+315,18,Non-binary,Sophomore,Biology,Credit/Debit Card,1270,1202,833,2035,-765
+316,24,Female,Sophomore,Engineering,Credit/Debit Card,1375,817,721,1538,-163
+317,18,Male,Senior,Economics,Mobile Payment App,1316,701,639,1340,-24
+318,24,Female,Freshman,Biology,Credit/Debit Card,720,1273,813,2086,-1366
+319,25,Male,Sophomore,Economics,Credit/Debit Card,1873,975,605,1580,293
+320,19,Female,Freshman,Economics,Cash,1572,727,499,1226,346
+321,20,Female,Freshman,Computer Science,Mobile Payment App,1307,875,907,1782,-475
+322,19,Female,Junior,Psychology,Cash,1753,1299,852,2151,-398
+323,21,Female,Sophomore,Economics,Mobile Payment App,1871,1186,730,1916,-45
+324,21,Non-binary,Freshman,Engineering,Mobile Payment App,2116,1009,570,1579,537
+325,18,Female,Freshman,Biology,Credit/Debit Card,810,1280,860,2140,-1330
+326,21,Non-binary,Sophomore,Economics,Mobile Payment App,1205,660,895,1555,-350
+327,25,Female,Senior,Engineering,Mobile Payment App,2149,1218,791,2009,140
+328,25,Male,Sophomore,Engineering,Cash,1992,865,600,1465,527
+329,19,Male,Freshman,Engineering,Mobile Payment App,1145,1032,703,1735,-590
+330,19,Male,Junior,Engineering,Mobile Payment App,1412,1433,618,2051,-639
+331,20,Male,Sophomore,Computer Science,Credit/Debit Card,1375,1258,616,1874,-499
+332,18,Male,Freshman,Computer Science,Mobile Payment App,1517,1298,595,1893,-376
+333,18,Female,Sophomore,Biology,Cash,2138,997,531,1528,610
+334,25,Male,Freshman,Biology,Credit/Debit Card,1552,1296,627,1923,-371
+335,18,Non-binary,Sophomore,Economics,Cash,1980,838,620,1458,522
+336,22,Female,Senior,Psychology,Cash,1384,865,800,1665,-281
+337,19,Female,Junior,Psychology,Credit/Debit Card,1285,1030,607,1637,-352
+338,23,Non-binary,Freshman,Psychology,Credit/Debit Card,1577,1219,535,1754,-177
+339,19,Male,Freshman,Biology,Cash,1538,1086,855,1941,-403
+340,20,Female,Junior,Biology,Credit/Debit Card,1260,988,677,1665,-405
+341,19,Non-binary,Junior,Engineering,Credit/Debit Card,1883,834,541,1375,508
+342,25,Female,Sophomore,Computer Science,Cash,1114,886,575,1461,-347
+343,24,Male,Freshman,Computer Science,Mobile Payment App,1041,1218,804,2022,-981
+344,24,Non-binary,Freshman,Economics,Cash,1340,1253,803,2056,-716
+345,23,Female,Senior,Biology,Mobile Payment App,1421,880,712,1592,-171
+346,23,Non-binary,Sophomore,Engineering,Cash,1761,1163,512,1675,86
+347,23,Male,Sophomore,Biology,Credit/Debit Card,805,658,819,1477,-672
+348,25,Male,Senior,Engineering,Credit/Debit Card,1402,1218,821,2039,-637
+349,18,Non-binary,Senior,Computer Science,Mobile Payment App,872,1201,765,1966,-1094
+350,25,Female,Senior,Psychology,Mobile Payment App,847,1314,718,2032,-1185
+351,23,Non-binary,Junior,Biology,Mobile Payment App,1880,828,569,1397,483
+352,23,Female,Freshman,Biology,Credit/Debit Card,1351,1049,957,2006,-655
+353,25,Female,Sophomore,Computer Science,Cash,1605,1137,909,2046,-441
+354,23,Male,Senior,Psychology,Credit/Debit Card,1210,1195,981,2176,-966
+355,23,Non-binary,Senior,Economics,Cash,1976,955,957,1912,64
+356,20,Non-binary,Freshman,Psychology,Mobile Payment App,1049,1437,445,1882,-833
+357,24,Male,Freshman,Engineering,Cash,1217,872,574,1446,-229
+358,23,Non-binary,Junior,Engineering,Cash,1296,863,869,1732,-436
+359,21,Non-binary,Junior,Computer Science,Credit/Debit Card,1749,1429,879,2308,-559
+360,23,Non-binary,Senior,Computer Science,Mobile Payment App,1189,1087,544,1631,-442
+361,25,Male,Junior,Computer Science,Cash,1933,1068,711,1779,154
+362,22,Female,Sophomore,Psychology,Mobile Payment App,1405,1131,851,1982,-577
+363,24,Female,Freshman,Computer Science,Mobile Payment App,2325,771,630,1401,924
+364,21,Male,Sophomore,Psychology,Credit/Debit Card,1133,1092,406,1498,-365
+365,21,Female,Freshman,Economics,Mobile Payment App,1429,826,901,1727,-298
+366,18,Non-binary,Freshman,Economics,Mobile Payment App,1582,1266,597,1863,-281
+367,19,Female,Senior,Biology,Cash,1128,810,917,1727,-599
+368,18,Female,Senior,Psychology,Mobile Payment App,1094,1045,656,1701,-607
+369,21,Female,Freshman,Computer Science,Credit/Debit Card,1364,1107,798,1905,-541
+370,23,Non-binary,Senior,Economics,Cash,1253,840,694,1534,-281
+371,24,Male,Senior,Psychology,Mobile Payment App,2425,1129,1085,2214,211
+372,22,Male,Freshman,Engineering,Cash,1104,1021,815,1836,-732
+373,25,Non-binary,Senior,Economics,Mobile Payment App,1320,1132,490,1622,-302
+374,25,Female,Sophomore,Economics,Cash,1828,1131,769,1900,-72
+375,25,Non-binary,Freshman,Computer Science,Cash,1698,1023,716,1739,-41
+376,21,Non-binary,Freshman,Biology,Mobile Payment App,1802,969,979,1948,-146
+377,18,Female,Senior,Psychology,Credit/Debit Card,1233,907,861,1768,-535
+378,20,Male,Senior,Biology,Credit/Debit Card,2197,808,983,1791,406
+379,25,Female,Freshman,Psychology,Cash,1986,1036,767,1803,183
+380,22,Female,Junior,Psychology,Cash,1020,846,772,1618,-598
+381,18,Non-binary,Freshman,Engineering,Credit/Debit Card,1328,1104,656,1760,-432
+382,18,Non-binary,Freshman,Biology,Cash,1041,1398,826,2224,-1183
+383,18,Female,Freshman,Engineering,Cash,1453,1013,624,1637,-184
+384,18,Non-binary,Sophomore,Economics,Credit/Debit Card,1333,891,835,1726,-393
+385,24,Male,Freshman,Computer Science,Credit/Debit Card,1480,1262,786,2048,-568
+386,21,Non-binary,Junior,Engineering,Cash,1624,1053,803,1856,-232
+387,23,Non-binary,Sophomore,Psychology,Mobile Payment App,1234,879,670,1549,-315
+388,18,Non-binary,Freshman,Economics,Mobile Payment App,1980,767,722,1489,491
+389,21,Female,Senior,Biology,Mobile Payment App,2308,797,552,1349,959
+390,22,Male,Senior,Economics,Cash,873,1207,947,2154,-1281
+391,22,Non-binary,Freshman,Psychology,Credit/Debit Card,1805,1256,659,1915,-110
+392,19,Non-binary,Senior,Biology,Cash,2137,927,495,1422,715
+393,24,Female,Sophomore,Engineering,Cash,1354,1115,669,1784,-430
+394,18,Female,Senior,Psychology,Cash,1291,1202,1006,2208,-917
+395,19,Female,Senior,Engineering,Mobile Payment App,1396,728,796,1524,-128
+396,22,Male,Senior,Engineering,Mobile Payment App,1069,1071,708,1779,-710
+397,25,Female,Sophomore,Engineering,Cash,889,835,640,1475,-586
+398,22,Female,Freshman,Computer Science,Credit/Debit Card,1095,932,917,1849,-754
+399,20,Male,Junior,Economics,Cash,1743,1040,775,1815,-72
+400,19,Non-binary,Freshman,Biology,Mobile Payment App,1434,1241,588,1829,-395
+401,18,Male,Senior,Economics,Credit/Debit Card,1592,890,751,1641,-49
+402,18,Female,Senior,Engineering,Mobile Payment App,2191,989,624,1613,578
+403,24,Male,Freshman,Computer Science,Cash,1541,1080,828,1908,-367
+404,25,Female,Senior,Economics,Credit/Debit Card,2042,1006,592,1598,444
+405,24,Male,Senior,Engineering,Mobile Payment App,2214,1003,598,1601,613
+406,22,Male,Senior,Engineering,Mobile Payment App,1372,1116,721,1837,-465
+407,22,Male,Sophomore,Biology,Cash,781,1221,565,1786,-1005
+408,18,Non-binary,Junior,Economics,Cash,1592,1088,651,1739,-147
+409,22,Male,Sophomore,Engineering,Credit/Debit Card,2177,832,715,1547,630
+410,18,Male,Sophomore,Economics,Credit/Debit Card,2455,1219,877,2096,359
+411,21,Female,Freshman,Psychology,Cash,1343,948,873,1821,-478
+412,25,Male,Sophomore,Engineering,Credit/Debit Card,1742,887,928,1815,-73
+413,19,Male,Freshman,Biology,Credit/Debit Card,2187,789,916,1705,482
+414,23,Male,Sophomore,Economics,Mobile Payment App,1801,808,602,1410,391
+415,25,Female,Sophomore,Economics,Credit/Debit Card,971,880,883,1763,-792
+416,18,Male,Junior,Economics,Mobile Payment App,1803,1124,693,1817,-14
+417,19,Female,Freshman,Economics,Mobile Payment App,2274,896,641,1537,737
+418,23,Non-binary,Freshman,Biology,Cash,861,1243,813,2056,-1195
+419,22,Non-binary,Senior,Biology,Cash,1434,1280,720,2000,-566
+420,24,Non-binary,Freshman,Engineering,Credit/Debit Card,2175,852,746,1598,577
+421,23,Non-binary,Freshman,Biology,Mobile Payment App,2025,1094,890,1984,41
+422,19,Male,Junior,Biology,Cash,1363,907,1032,1939,-576
+423,20,Non-binary,Sophomore,Economics,Credit/Debit Card,1395,796,660,1456,-61
+424,23,Non-binary,Junior,Economics,Credit/Debit Card,752,1210,651,1861,-1109
+425,23,Female,Junior,Engineering,Mobile Payment App,1525,972,503,1475,50
+426,18,Female,Freshman,Computer Science,Credit/Debit Card,1031,715,954,1669,-638
+427,18,Female,Freshman,Engineering,Cash,656,760,832,1592,-936
+428,21,Non-binary,Junior,Economics,Mobile Payment App,1008,1020,393,1413,-405
+429,21,Non-binary,Freshman,Biology,Mobile Payment App,620,1274,566,1840,-1220
+430,23,Female,Freshman,Psychology,Mobile Payment App,1258,918,737,1655,-397
+431,18,Female,Senior,Computer Science,Mobile Payment App,2000,1102,628,1730,270
+432,18,Male,Sophomore,Computer Science,Cash,932,779,748,1527,-595
+433,25,Female,Freshman,Psychology,Cash,2082,1160,924,2084,-2
+434,23,Female,Sophomore,Economics,Cash,1710,904,554,1458,252
+435,24,Female,Senior,Engineering,Cash,1655,1021,911,1932,-277
+436,18,Non-binary,Sophomore,Biology,Credit/Debit Card,2478,1138,736,1874,604
+437,19,Non-binary,Sophomore,Psychology,Mobile Payment App,1632,1255,693,1948,-316
+438,23,Male,Senior,Biology,Credit/Debit Card,1171,1130,770,1900,-729
+439,18,Male,Senior,Engineering,Credit/Debit Card,1866,946,797,1743,123
+440,22,Non-binary,Freshman,Biology,Mobile Payment App,908,1320,734,2054,-1146
+441,21,Male,Freshman,Psychology,Credit/Debit Card,1717,723,850,1573,144
+442,18,Non-binary,Sophomore,Engineering,Cash,1530,931,678,1609,-79
+443,22,Non-binary,Sophomore,Psychology,Cash,1811,1260,881,2141,-330
+444,24,Male,Junior,Economics,Mobile Payment App,704,1024,775,1799,-1095
+445,24,Male,Freshman,Computer Science,Cash,1905,1037,624,1661,244
+446,20,Non-binary,Senior,Economics,Cash,1429,892,724,1616,-187
+447,24,Non-binary,Junior,Biology,Credit/Debit Card,877,953,790,1743,-866
+448,18,Non-binary,Freshman,Engineering,Mobile Payment App,1429,1316,911,2227,-798
+449,20,Male,Senior,Psychology,Mobile Payment App,1098,1044,638,1682,-584
+450,23,Male,Sophomore,Engineering,Mobile Payment App,1429,943,751,1694,-265
+451,23,Non-binary,Junior,Biology,Credit/Debit Card,2214,717,879,1596,618
+452,18,Male,Sophomore,Psychology,Cash,1591,845,915,1760,-169
+453,22,Male,Freshman,Economics,Cash,1401,1026,593,1619,-218
+454,18,Male,Sophomore,Computer Science,Mobile Payment App,1807,1176,725,1901,-94
+455,20,Non-binary,Freshman,Engineering,Mobile Payment App,2197,743,754,1497,700
+456,23,Non-binary,Freshman,Psychology,Credit/Debit Card,2214,1121,747,1868,346
+457,21,Female,Sophomore,Computer Science,Credit/Debit Card,1147,1316,979,2295,-1148
+458,19,Male,Senior,Biology,Cash,1634,866,993,1859,-225
+459,18,Male,Freshman,Computer Science,Cash,1764,1093,847,1940,-176
+460,20,Female,Sophomore,Engineering,Mobile Payment App,701,869,841,1710,-1009
+461,25,Female,Senior,Biology,Credit/Debit Card,1469,1204,729,1933,-464
+462,21,Female,Junior,Economics,Credit/Debit Card,1976,1325,856,2181,-205
+463,18,Male,Freshman,Engineering,Credit/Debit Card,1687,1262,842,2104,-417
+464,21,Non-binary,Junior,Biology,Mobile Payment App,1258,1227,753,1980,-722
+465,19,Female,Sophomore,Biology,Credit/Debit Card,1422,883,543,1426,-4
+466,19,Female,Sophomore,Computer Science,Cash,1069,1012,584,1596,-527
+467,19,Female,Freshman,Engineering,Mobile Payment App,1744,820,1005,1825,-81
+468,25,Male,Freshman,Biology,Credit/Debit Card,885,776,930,1706,-821
+469,23,Non-binary,Senior,Engineering,Mobile Payment App,1760,678,487,1165,595
+470,24,Male,Senior,Psychology,Credit/Debit Card,2136,864,639,1503,633
+471,19,Male,Senior,Computer Science,Cash,1622,1323,837,2160,-538
+472,23,Male,Freshman,Computer Science,Mobile Payment App,1048,1076,716,1792,-744
+473,22,Male,Senior,Engineering,Credit/Debit Card,1088,958,846,1804,-716
+474,20,Non-binary,Junior,Biology,Mobile Payment App,2444,979,576,1555,889
+475,24,Female,Freshman,Psychology,Mobile Payment App,2012,1248,939,2187,-175
+476,21,Female,Senior,Computer Science,Cash,1043,1195,647,1842,-799
+477,18,Non-binary,Senior,Biology,Credit/Debit Card,1827,1053,782,1835,-8
+478,22,Female,Senior,Engineering,Mobile Payment App,1641,770,869,1639,2
+479,25,Non-binary,Sophomore,Biology,Mobile Payment App,1650,941,657,1598,52
+480,21,Male,Freshman,Biology,Credit/Debit Card,2240,1158,1068,2226,14
+481,25,Female,Sophomore,Biology,Mobile Payment App,1558,1066,567,1633,-75
+482,25,Male,Freshman,Computer Science,Mobile Payment App,2040,1039,835,1874,166
+483,24,Non-binary,Sophomore,Psychology,Cash,1516,1000,704,1704,-188
+484,25,Female,Senior,Biology,Cash,1461,776,1079,1855,-394
+485,23,Female,Senior,Engineering,Credit/Debit Card,1637,1297,726,2023,-386
+486,23,Male,Senior,Economics,Credit/Debit Card,908,1159,809,1968,-1060
+487,20,Female,Senior,Psychology,Credit/Debit Card,1056,894,755,1649,-593
+488,24,Male,Freshman,Economics,Cash,1235,992,474,1466,-231
+489,19,Female,Freshman,Computer Science,Credit/Debit Card,1779,981,841,1822,-43
+490,19,Non-binary,Junior,Computer Science,Mobile Payment App,1159,1405,451,1856,-697
+491,22,Female,Junior,Computer Science,Mobile Payment App,1257,957,422,1379,-122
+492,19,Non-binary,Freshman,Biology,Mobile Payment App,1410,703,716,1419,-9
+493,18,Non-binary,Junior,Economics,Cash,1996,1228,800,2028,-32
+494,21,Female,Senior,Computer Science,Mobile Payment App,1471,837,660,1497,-26
+495,25,Non-binary,Freshman,Psychology,Mobile Payment App,1732,963,908,1871,-139
+496,22,Non-binary,Freshman,Psychology,Cash,560,1232,830,2062,-1502
+497,22,Female,Freshman,Computer Science,Mobile Payment App,1645,1037,931,1968,-323
+498,25,Female,Freshman,Psychology,Cash,796,1359,662,2021,-1225
+499,22,Male,Freshman,Computer Science,Mobile Payment App,2122,926,1058,1984,138
+500,25,Female,Sophomore,Computer Science,Credit/Debit Card,1452,1157,881,2038,-586
+501,18,Male,Sophomore,Economics,Cash,2052,1046,475,1521,531
+502,19,Female,Junior,Engineering,Cash,2107,1146,770,1916,191
+503,24,Non-binary,Sophomore,Engineering,Cash,1444,831,952,1783,-339
+504,21,Male,Senior,Economics,Cash,1094,1221,703,1924,-830
+505,25,Male,Sophomore,Biology,Mobile Payment App,1874,973,889,1862,12
+506,20,Male,Junior,Biology,Credit/Debit Card,1638,968,520,1488,150
+507,24,Male,Senior,Engineering,Credit/Debit Card,727,925,724,1649,-922
+508,25,Female,Junior,Psychology,Cash,1818,892,780,1672,146
+509,25,Male,Sophomore,Computer Science,Cash,1481,612,791,1403,78
+510,20,Non-binary,Junior,Psychology,Mobile Payment App,1606,1353,484,1837,-231
+511,24,Non-binary,Senior,Economics,Credit/Debit Card,1742,1174,714,1888,-146
+512,19,Non-binary,Freshman,Computer Science,Cash,1205,1319,688,2007,-802
+513,18,Female,Freshman,Psychology,Cash,2017,1016,534,1550,467
+514,22,Male,Sophomore,Biology,Mobile Payment App,1160,929,771,1700,-540
+515,25,Male,Freshman,Psychology,Credit/Debit Card,1004,1228,631,1859,-855
+516,18,Female,Senior,Biology,Credit/Debit Card,779,1403,776,2179,-1400
+517,18,Male,Senior,Computer Science,Cash,2277,1049,868,1917,360
+518,22,Male,Junior,Psychology,Credit/Debit Card,1782,1333,625,1958,-176
+519,22,Female,Sophomore,Biology,Credit/Debit Card,1523,928,882,1810,-287
+520,18,Non-binary,Freshman,Biology,Cash,1755,1173,667,1840,-85
+521,21,Non-binary,Sophomore,Economics,Cash,1355,878,972,1850,-495
+522,18,Non-binary,Freshman,Computer Science,Cash,1827,887,785,1672,155
+523,23,Female,Freshman,Engineering,Mobile Payment App,2000,814,987,1801,199
+524,22,Female,Freshman,Biology,Credit/Debit Card,1283,1278,775,2053,-770
+525,22,Male,Junior,Psychology,Credit/Debit Card,1064,936,647,1583,-519
+526,24,Non-binary,Junior,Computer Science,Credit/Debit Card,1684,1241,1025,2266,-582
+527,23,Female,Junior,Economics,Credit/Debit Card,1843,820,837,1657,186
+528,18,Non-binary,Freshman,Economics,Credit/Debit Card,1727,1310,535,1845,-118
+529,24,Female,Junior,Psychology,Credit/Debit Card,1144,1005,845,1850,-706
+530,24,Male,Senior,Psychology,Mobile Payment App,1285,1210,546,1756,-471
+531,25,Non-binary,Sophomore,Economics,Cash,1653,847,970,1817,-164
+532,18,Non-binary,Senior,Biology,Mobile Payment App,1558,885,559,1444,114
+533,22,Female,Sophomore,Computer Science,Cash,2184,765,572,1337,847
+534,22,Non-binary,Junior,Biology,Cash,1198,1092,855,1947,-749
+535,22,Non-binary,Sophomore,Psychology,Credit/Debit Card,1297,1082,664,1746,-449
+536,21,Male,Freshman,Biology,Credit/Debit Card,1784,929,774,1703,81
+537,18,Female,Senior,Biology,Credit/Debit Card,873,1115,571,1686,-813
+538,20,Male,Senior,Biology,Cash,566,1207,522,1729,-1163
+539,25,Non-binary,Junior,Biology,Mobile Payment App,1299,909,565,1474,-175
+540,20,Male,Sophomore,Biology,Mobile Payment App,1533,720,886,1606,-73
+541,20,Non-binary,Senior,Engineering,Credit/Debit Card,851,894,544,1438,-587
+542,20,Non-binary,Junior,Engineering,Cash,1265,967,503,1470,-205
+543,19,Female,Senior,Computer Science,Mobile Payment App,1969,951,502,1453,516
+544,25,Male,Senior,Psychology,Cash,968,1179,538,1717,-749
+545,22,Male,Sophomore,Computer Science,Cash,1715,1041,953,1994,-279
+546,25,Non-binary,Sophomore,Economics,Mobile Payment App,1398,1221,967,2188,-790
+547,25,Female,Senior,Computer Science,Credit/Debit Card,1897,1254,903,2157,-260
+548,22,Non-binary,Junior,Economics,Cash,1078,1277,847,2124,-1046
+549,23,Non-binary,Sophomore,Psychology,Credit/Debit Card,661,990,831,1821,-1160
+550,20,Male,Senior,Biology,Mobile Payment App,1742,1418,830,2248,-506
+551,20,Male,Junior,Biology,Credit/Debit Card,999,773,700,1473,-474
+552,23,Non-binary,Junior,Psychology,Credit/Debit Card,1834,890,889,1779,55
+553,20,Non-binary,Freshman,Biology,Mobile Payment App,1899,1020,679,1699,200
+554,19,Non-binary,Junior,Engineering,Cash,2015,1016,784,1800,215
+555,18,Male,Senior,Engineering,Mobile Payment App,1325,1079,918,1997,-672
+556,25,Female,Senior,Computer Science,Mobile Payment App,1536,1119,824,1943,-407
+557,19,Female,Freshman,Psychology,Cash,2024,908,797,1705,319
+558,22,Non-binary,Freshman,Engineering,Mobile Payment App,1352,815,765,1580,-228
+559,21,Male,Freshman,Engineering,Credit/Debit Card,2227,995,549,1544,683
+560,20,Male,Senior,Engineering,Credit/Debit Card,2225,977,655,1632,593
+561,24,Non-binary,Junior,Psychology,Mobile Payment App,1880,888,504,1392,488
+562,18,Male,Freshman,Engineering,Cash,1140,1020,560,1580,-440
+563,22,Male,Sophomore,Computer Science,Credit/Debit Card,1877,782,686,1468,409
+564,23,Non-binary,Freshman,Computer Science,Credit/Debit Card,1935,1197,793,1990,-55
+565,20,Male,Sophomore,Computer Science,Cash,1692,1255,657,1912,-220
+566,22,Non-binary,Senior,Engineering,Credit/Debit Card,1542,812,582,1394,148
+567,21,Male,Sophomore,Economics,Cash,1712,1120,812,1932,-220
+568,18,Male,Sophomore,Biology,Cash,1761,1270,602,1872,-111
+569,21,Female,Senior,Engineering,Credit/Debit Card,1913,1368,734,2102,-189
+570,25,Male,Sophomore,Biology,Mobile Payment App,1819,830,477,1307,512
+571,25,Male,Sophomore,Psychology,Credit/Debit Card,1491,819,723,1542,-51
+572,24,Non-binary,Freshman,Biology,Cash,1545,1345,709,2054,-509
+573,22,Male,Freshman,Psychology,Credit/Debit Card,1793,1052,965,2017,-224
+574,18,Male,Sophomore,Psychology,Mobile Payment App,844,1204,737,1941,-1097
+575,20,Male,Senior,Economics,Credit/Debit Card,1299,902,944,1846,-547
+576,23,Female,Sophomore,Economics,Cash,1805,708,884,1592,213
+577,23,Non-binary,Junior,Biology,Mobile Payment App,1692,945,646,1591,101
+578,24,Male,Freshman,Psychology,Cash,1152,800,671,1471,-319
+579,20,Male,Sophomore,Biology,Cash,1877,1055,770,1825,52
+580,21,Non-binary,Sophomore,Economics,Mobile Payment App,1463,903,689,1592,-129
+581,25,Female,Sophomore,Biology,Mobile Payment App,1398,865,693,1558,-160
+582,21,Non-binary,Junior,Biology,Mobile Payment App,2083,1361,751,2112,-29
+583,22,Male,Junior,Computer Science,Credit/Debit Card,965,1233,880,2113,-1148
+584,25,Male,Sophomore,Computer Science,Mobile Payment App,1264,1303,854,2157,-893
+585,23,Female,Senior,Computer Science,Credit/Debit Card,1589,1321,710,2031,-442
+586,19,Male,Sophomore,Computer Science,Credit/Debit Card,2300,1155,889,2044,256
+587,22,Non-binary,Junior,Engineering,Mobile Payment App,1578,1172,744,1916,-338
+588,24,Female,Junior,Biology,Mobile Payment App,1355,1168,896,2064,-709
+589,21,Male,Sophomore,Biology,Cash,2103,1257,920,2177,-74
+590,18,Non-binary,Senior,Economics,Mobile Payment App,1570,964,779,1743,-173
+591,22,Non-binary,Senior,Computer Science,Credit/Debit Card,1071,1525,512,2037,-966
+592,20,Non-binary,Senior,Economics,Mobile Payment App,1146,886,986,1872,-726
+593,20,Non-binary,Freshman,Biology,Cash,802,822,746,1568,-766
+594,24,Non-binary,Junior,Psychology,Credit/Debit Card,1348,1158,818,1976,-628
+595,19,Female,Sophomore,Psychology,Cash,1961,1189,634,1823,138
+596,22,Non-binary,Senior,Economics,Credit/Debit Card,1622,1227,667,1894,-272
+597,18,Female,Senior,Engineering,Mobile Payment App,1522,1337,930,2267,-745
+598,25,Non-binary,Junior,Psychology,Mobile Payment App,758,1367,710,2077,-1319
+599,23,Male,Junior,Biology,Credit/Debit Card,1947,1173,673,1846,101
+600,23,Female,Freshman,Engineering,Cash,2007,1181,552,1733,274
+601,23,Female,Freshman,Engineering,Cash,1492,1191,696,1887,-395
+602,22,Female,Junior,Economics,Credit/Debit Card,1381,1092,639,1731,-350
+603,25,Male,Freshman,Computer Science,Mobile Payment App,2455,1170,599,1769,686
+604,25,Non-binary,Junior,Biology,Mobile Payment App,1417,871,741,1612,-195
+605,18,Female,Senior,Computer Science,Mobile Payment App,1824,1026,726,1752,72
+606,24,Non-binary,Freshman,Engineering,Mobile Payment App,1474,1017,546,1563,-89
+607,24,Non-binary,Freshman,Engineering,Mobile Payment App,1390,978,662,1640,-250
+608,20,Female,Junior,Psychology,Cash,1141,1367,845,2212,-1071
+609,24,Non-binary,Freshman,Engineering,Credit/Debit Card,1580,1116,796,1912,-332
+610,24,Non-binary,Sophomore,Engineering,Mobile Payment App,1609,883,950,1833,-224
+611,23,Male,Junior,Engineering,Cash,2197,1102,823,1925,272
+612,23,Male,Freshman,Biology,Cash,2062,1124,804,1928,134
+613,21,Male,Senior,Biology,Cash,2061,830,773,1603,458
+614,23,Male,Sophomore,Engineering,Cash,860,902,620,1522,-662
+615,24,Male,Freshman,Engineering,Credit/Debit Card,864,915,1078,1993,-1129
+616,20,Male,Freshman,Biology,Mobile Payment App,1447,1178,595,1773,-326
+617,25,Male,Junior,Computer Science,Credit/Debit Card,1688,1088,949,2037,-349
+618,24,Male,Junior,Engineering,Cash,1158,1187,857,2044,-886
+619,19,Male,Junior,Engineering,Mobile Payment App,747,1239,885,2124,-1377
+620,19,Non-binary,Freshman,Psychology,Credit/Debit Card,1577,1113,709,1822,-245
+621,22,Non-binary,Senior,Computer Science,Credit/Debit Card,1338,941,871,1812,-474
+622,18,Non-binary,Sophomore,Engineering,Cash,1394,1131,937,2068,-674
+623,19,Male,Junior,Computer Science,Mobile Payment App,1494,1174,729,1903,-409
+624,23,Male,Senior,Economics,Credit/Debit Card,2023,1364,714,2078,-55
+625,21,Male,Junior,Engineering,Credit/Debit Card,867,967,527,1494,-627
+626,21,Non-binary,Freshman,Computer Science,Cash,1349,1059,753,1812,-463
+627,25,Non-binary,Junior,Computer Science,Cash,1243,883,892,1775,-532
+628,22,Male,Freshman,Computer Science,Cash,606,700,546,1246,-640
+629,22,Male,Freshman,Engineering,Credit/Debit Card,635,740,723,1463,-828
+630,22,Non-binary,Senior,Economics,Credit/Debit Card,1044,1106,827,1933,-889
+631,21,Female,Sophomore,Engineering,Cash,1974,1142,712,1854,120
+632,22,Non-binary,Senior,Biology,Credit/Debit Card,1425,1094,867,1961,-536
+633,25,Male,Freshman,Biology,Cash,1249,1349,688,2037,-788
+634,25,Female,Senior,Computer Science,Mobile Payment App,1388,1179,899,2078,-690
+635,23,Male,Sophomore,Engineering,Credit/Debit Card,1339,1160,765,1925,-586
+636,18,Male,Senior,Computer Science,Mobile Payment App,1217,684,867,1551,-334
+637,24,Female,Junior,Engineering,Credit/Debit Card,1856,1110,698,1808,48
+638,25,Non-binary,Senior,Economics,Credit/Debit Card,2263,752,785,1537,726
+639,18,Non-binary,Sophomore,Biology,Cash,1055,971,786,1757,-702
+640,24,Male,Junior,Biology,Mobile Payment App,2151,989,713,1702,449
+641,20,Female,Junior,Economics,Mobile Payment App,1031,1114,656,1770,-739
+642,24,Female,Freshman,Psychology,Credit/Debit Card,1825,1282,710,1992,-167
+643,18,Non-binary,Junior,Psychology,Credit/Debit Card,1203,819,794,1613,-410
+644,25,Male,Junior,Computer Science,Credit/Debit Card,1254,984,739,1723,-469
+645,22,Male,Senior,Economics,Mobile Payment App,1453,1338,795,2133,-680
+646,20,Female,Sophomore,Engineering,Cash,1109,790,750,1540,-431
+647,19,Female,Junior,Engineering,Credit/Debit Card,1621,813,778,1591,30
+648,23,Male,Sophomore,Engineering,Cash,1623,846,540,1386,237
+649,25,Male,Senior,Biology,Credit/Debit Card,1357,1132,902,2034,-677
+650,23,Female,Freshman,Economics,Mobile Payment App,1089,725,677,1402,-313
+651,23,Non-binary,Junior,Engineering,Mobile Payment App,2385,1003,867,1870,515
+652,18,Non-binary,Senior,Engineering,Credit/Debit Card,1746,1280,854,2134,-388
+653,23,Male,Freshman,Biology,Cash,1882,939,746,1685,197
+654,18,Female,Sophomore,Biology,Credit/Debit Card,967,800,644,1444,-477
+655,18,Non-binary,Freshman,Economics,Credit/Debit Card,1441,1173,817,1990,-549
+656,20,Non-binary,Freshman,Computer Science,Mobile Payment App,1486,1168,817,1985,-499
+657,18,Non-binary,Senior,Economics,Credit/Debit Card,1436,1209,781,1990,-554
+658,22,Male,Senior,Psychology,Credit/Debit Card,1404,1152,781,1933,-529
+659,21,Male,Junior,Computer Science,Credit/Debit Card,1224,1130,775,1905,-681
+660,21,Non-binary,Freshman,Economics,Cash,1720,903,810,1713,7
+661,20,Non-binary,Freshman,Biology,Cash,1127,1477,837,2314,-1187
+662,21,Male,Senior,Economics,Mobile Payment App,1772,1022,775,1797,-25
+663,18,Male,Freshman,Psychology,Credit/Debit Card,1219,1054,834,1888,-669
+664,22,Non-binary,Sophomore,Computer Science,Credit/Debit Card,1666,1051,612,1663,3
+665,18,Female,Sophomore,Biology,Mobile Payment App,1965,1273,588,1861,104
+666,22,Male,Senior,Economics,Credit/Debit Card,1432,856,794,1650,-218
+667,18,Male,Junior,Biology,Cash,2188,754,832,1586,602
+668,24,Female,Sophomore,Biology,Cash,1431,626,646,1272,159
+669,21,Female,Sophomore,Economics,Credit/Debit Card,728,753,818,1571,-843
+670,23,Male,Sophomore,Engineering,Credit/Debit Card,1944,797,846,1643,301
+671,20,Non-binary,Junior,Psychology,Credit/Debit Card,1409,855,693,1548,-139
+672,24,Male,Senior,Engineering,Cash,1860,810,762,1572,288
+673,25,Male,Junior,Economics,Credit/Debit Card,1484,924,602,1526,-42
+674,25,Non-binary,Junior,Economics,Mobile Payment App,2002,1187,792,1979,23
+675,19,Male,Junior,Biology,Mobile Payment App,1536,1031,675,1706,-170
+676,24,Female,Sophomore,Biology,Mobile Payment App,2292,1125,1030,2155,137
+677,24,Non-binary,Freshman,Computer Science,Mobile Payment App,2309,1316,681,1997,312
+678,22,Female,Freshman,Economics,Credit/Debit Card,2110,1016,768,1784,326
+679,20,Non-binary,Junior,Biology,Credit/Debit Card,2093,1275,769,2044,49
+680,18,Female,Junior,Computer Science,Mobile Payment App,1487,1212,458,1670,-183
+681,25,Non-binary,Junior,Biology,Cash,1611,673,745,1418,193
+682,18,Female,Sophomore,Psychology,Cash,1919,829,689,1518,401
+683,23,Male,Junior,Biology,Cash,1543,889,531,1420,123
+684,20,Male,Junior,Economics,Cash,2082,1497,647,2144,-62
+685,19,Female,Freshman,Biology,Cash,1502,1061,822,1883,-381
+686,22,Male,Senior,Biology,Mobile Payment App,1066,1405,699,2104,-1038
+687,22,Male,Freshman,Economics,Cash,2096,1035,978,2013,83
+688,24,Male,Freshman,Biology,Mobile Payment App,1685,1389,736,2125,-440
+689,21,Female,Sophomore,Engineering,Mobile Payment App,1359,1269,506,1775,-416
+690,25,Male,Freshman,Psychology,Credit/Debit Card,1398,1021,727,1748,-350
+691,19,Female,Senior,Economics,Mobile Payment App,1914,1125,976,2101,-187
+692,24,Female,Senior,Engineering,Cash,1655,1149,607,1756,-101
+693,24,Non-binary,Sophomore,Engineering,Cash,1355,824,743,1567,-212
+694,25,Non-binary,Senior,Economics,Cash,1759,973,623,1596,163
+695,20,Non-binary,Freshman,Computer Science,Mobile Payment App,1473,1340,775,2115,-642
+696,25,Female,Freshman,Computer Science,Cash,1237,1400,820,2220,-983
+697,18,Non-binary,Senior,Economics,Mobile Payment App,2005,1323,963,2286,-281
+698,23,Non-binary,Freshman,Economics,Credit/Debit Card,1441,1081,920,2001,-560
+699,19,Non-binary,Sophomore,Computer Science,Mobile Payment App,1351,1398,717,2115,-764
+700,25,Male,Freshman,Economics,Mobile Payment App,1571,1095,734,1829,-258
+701,20,Non-binary,Freshman,Engineering,Cash,2397,1239,779,2018,379
+702,20,Female,Freshman,Biology,Credit/Debit Card,1522,815,662,1477,45
+703,21,Male,Junior,Biology,Credit/Debit Card,1378,931,1001,1932,-554
+704,19,Male,Senior,Economics,Credit/Debit Card,1261,1156,507,1663,-402
+705,21,Female,Junior,Psychology,Mobile Payment App,2078,1029,826,1855,223
+706,22,Female,Sophomore,Psychology,Cash,1322,754,474,1228,94
+707,21,Male,Sophomore,Biology,Mobile Payment App,915,1031,474,1505,-590
+708,20,Male,Freshman,Psychology,Cash,1198,923,689,1612,-414
+709,22,Female,Sophomore,Biology,Cash,1626,1131,720,1851,-225
+710,23,Female,Senior,Engineering,Mobile Payment App,1972,1182,755,1937,35
+711,20,Non-binary,Junior,Psychology,Mobile Payment App,1337,913,842,1755,-418
+712,24,Female,Junior,Computer Science,Credit/Debit Card,1003,1164,732,1896,-893
+713,25,Male,Freshman,Engineering,Credit/Debit Card,1672,643,582,1225,447
+714,23,Non-binary,Freshman,Computer Science,Cash,891,854,631,1485,-594
+715,25,Male,Senior,Engineering,Credit/Debit Card,1636,1025,745,1770,-134
+716,24,Non-binary,Freshman,Computer Science,Mobile Payment App,1648,815,589,1404,244
+717,23,Female,Sophomore,Biology,Cash,2180,810,699,1509,671
+718,20,Female,Senior,Engineering,Mobile Payment App,1918,726,768,1494,424
+719,21,Male,Freshman,Psychology,Mobile Payment App,1380,949,826,1775,-395
+720,24,Male,Sophomore,Economics,Cash,2037,1187,860,2047,-10
+721,20,Non-binary,Freshman,Biology,Credit/Debit Card,1274,1039,740,1779,-505
+722,25,Non-binary,Freshman,Biology,Mobile Payment App,1819,843,755,1598,221
+723,21,Female,Junior,Biology,Cash,964,1186,865,2051,-1087
+724,25,Male,Senior,Biology,Credit/Debit Card,821,1108,656,1764,-943
+725,21,Male,Junior,Economics,Cash,1225,931,742,1673,-448
+726,18,Male,Senior,Computer Science,Cash,1513,1457,996,2453,-940
+727,20,Male,Sophomore,Economics,Mobile Payment App,1707,1298,864,2162,-455
+728,25,Non-binary,Sophomore,Biology,Mobile Payment App,924,704,872,1576,-652
+729,21,Female,Junior,Computer Science,Credit/Debit Card,2035,1335,761,2096,-61
+730,18,Male,Freshman,Engineering,Mobile Payment App,970,1061,809,1870,-900
+731,22,Female,Junior,Biology,Cash,1886,673,514,1187,699
+732,22,Non-binary,Junior,Computer Science,Credit/Debit Card,2183,857,625,1482,701
+733,24,Non-binary,Freshman,Psychology,Credit/Debit Card,2008,1209,605,1814,194
+734,21,Female,Junior,Computer Science,Cash,1137,1180,529,1709,-572
+735,25,Non-binary,Sophomore,Engineering,Mobile Payment App,1610,1109,857,1966,-356
+736,24,Female,Junior,Computer Science,Cash,812,1080,984,2064,-1252
+737,22,Male,Freshman,Psychology,Credit/Debit Card,1927,1240,461,1701,226
+738,25,Male,Sophomore,Biology,Mobile Payment App,1246,895,681,1576,-330
+739,18,Male,Junior,Engineering,Cash,1900,1097,648,1745,155
+740,23,Non-binary,Senior,Engineering,Credit/Debit Card,1841,1261,748,2009,-168
+741,20,Female,Senior,Biology,Credit/Debit Card,2410,1036,617,1653,757
+742,22,Male,Sophomore,Economics,Cash,710,649,759,1408,-698
+743,19,Female,Junior,Economics,Cash,2048,1406,562,1968,80
+744,25,Male,Senior,Engineering,Credit/Debit Card,1774,849,888,1737,37
+745,18,Non-binary,Freshman,Computer Science,Mobile Payment App,1407,1134,641,1775,-368
+746,25,Non-binary,Sophomore,Psychology,Credit/Debit Card,1840,1116,744,1860,-20
+747,18,Female,Junior,Biology,Credit/Debit Card,1602,961,829,1790,-188
+748,19,Non-binary,Junior,Engineering,Credit/Debit Card,2055,791,895,1686,369
+749,25,Non-binary,Sophomore,Computer Science,Credit/Debit Card,1173,1046,977,2023,-850
+750,22,Male,Junior,Engineering,Cash,1386,1391,603,1994,-608
+751,23,Female,Freshman,Computer Science,Credit/Debit Card,1539,1302,776,2078,-539
+752,22,Non-binary,Junior,Engineering,Cash,1574,1116,913,2029,-455
+753,23,Non-binary,Senior,Biology,Cash,1863,1323,899,2222,-359
+754,24,Non-binary,Junior,Psychology,Credit/Debit Card,1279,1070,798,1868,-589
+755,22,Female,Sophomore,Biology,Cash,2136,729,895,1624,512
+756,20,Female,Freshman,Biology,Credit/Debit Card,1462,1269,884,2153,-691
+757,23,Male,Sophomore,Engineering,Credit/Debit Card,1376,858,609,1467,-91
+758,22,Non-binary,Sophomore,Biology,Mobile Payment App,1926,1078,695,1773,153
+759,21,Non-binary,Junior,Biology,Credit/Debit Card,1447,938,733,1671,-224
+760,23,Non-binary,Sophomore,Biology,Cash,1974,1117,966,2083,-109
+761,25,Non-binary,Freshman,Biology,Credit/Debit Card,835,1093,1004,2097,-1262
+762,18,Non-binary,Junior,Engineering,Cash,1618,1069,588,1657,-39
+763,24,Female,Freshman,Engineering,Cash,1233,1272,791,2063,-830
+764,19,Female,Freshman,Computer Science,Credit/Debit Card,2183,941,681,1622,561
+765,21,Non-binary,Junior,Psychology,Cash,1751,1218,924,2142,-391
+766,18,Non-binary,Sophomore,Psychology,Cash,1093,938,787,1725,-632
+767,21,Male,Sophomore,Economics,Credit/Debit Card,1587,1111,669,1780,-193
+768,24,Non-binary,Junior,Biology,Mobile Payment App,998,1313,757,2070,-1072
+769,20,Male,Senior,Psychology,Mobile Payment App,1545,966,470,1436,109
+770,20,Female,Sophomore,Biology,Credit/Debit Card,1318,754,839,1593,-275
+771,22,Non-binary,Freshman,Psychology,Credit/Debit Card,2026,1146,803,1949,77
+772,19,Non-binary,Senior,Computer Science,Credit/Debit Card,677,1087,922,2009,-1332
+773,19,Male,Sophomore,Biology,Mobile Payment App,1127,993,1091,2084,-957
+774,25,Male,Sophomore,Engineering,Credit/Debit Card,1302,1278,1041,2319,-1017
+775,23,Male,Junior,Economics,Cash,1199,827,610,1437,-238
+776,22,Non-binary,Junior,Biology,Credit/Debit Card,1228,989,905,1894,-666
+777,21,Non-binary,Sophomore,Psychology,Cash,960,1384,878,2262,-1302
+778,22,Male,Freshman,Computer Science,Credit/Debit Card,1984,1215,782,1997,-13
+779,23,Non-binary,Sophomore,Engineering,Cash,723,707,614,1321,-598
+780,21,Female,Freshman,Economics,Mobile Payment App,916,789,782,1571,-655
+781,23,Male,Freshman,Psychology,Mobile Payment App,1897,1232,934,2166,-269
+782,24,Non-binary,Junior,Biology,Credit/Debit Card,994,1088,778,1866,-872
+783,25,Non-binary,Senior,Biology,Credit/Debit Card,1587,1297,952,2249,-662
+784,22,Male,Sophomore,Biology,Credit/Debit Card,1414,1042,706,1748,-334
+785,21,Female,Junior,Engineering,Cash,1444,1155,859,2014,-570
+786,20,Female,Senior,Computer Science,Credit/Debit Card,917,873,855,1728,-811
+787,24,Male,Junior,Psychology,Mobile Payment App,1255,1261,821,2082,-827
+788,25,Male,Sophomore,Economics,Mobile Payment App,1834,788,986,1774,60
+789,21,Female,Sophomore,Psychology,Credit/Debit Card,1398,1291,619,1910,-512
+790,25,Non-binary,Sophomore,Psychology,Credit/Debit Card,1509,919,823,1742,-233
+791,20,Male,Senior,Psychology,Mobile Payment App,1023,972,584,1556,-533
+792,18,Non-binary,Senior,Psychology,Mobile Payment App,1524,1455,663,2118,-594
+793,19,Male,Sophomore,Computer Science,Mobile Payment App,912,1030,799,1829,-917
+794,22,Female,Freshman,Psychology,Credit/Debit Card,959,1289,848,2137,-1178
+795,25,Female,Junior,Engineering,Mobile Payment App,1937,1148,604,1752,185
+796,21,Male,Junior,Psychology,Cash,770,811,774,1585,-815
+797,25,Non-binary,Senior,Computer Science,Cash,1838,1024,808,1832,6
+798,22,Male,Junior,Biology,Credit/Debit Card,1780,764,939,1703,77
+799,23,Non-binary,Junior,Economics,Mobile Payment App,1847,683,1023,1706,141
+800,22,Non-binary,Senior,Computer Science,Credit/Debit Card,1202,876,694,1570,-368
+801,22,Non-binary,Senior,Computer Science,Cash,2192,1471,590,2061,131
+802,23,Male,Senior,Engineering,Cash,1454,948,723,1671,-217
+803,24,Female,Sophomore,Computer Science,Mobile Payment App,1202,1094,759,1853,-651
+804,25,Non-binary,Sophomore,Biology,Cash,1343,1135,953,2088,-745
+805,23,Male,Junior,Biology,Mobile Payment App,904,886,930,1816,-912
+806,19,Male,Junior,Computer Science,Credit/Debit Card,2317,1248,768,2016,301
+807,25,Non-binary,Senior,Engineering,Mobile Payment App,2058,1005,715,1720,338
+808,23,Non-binary,Senior,Engineering,Mobile Payment App,830,690,787,1477,-647
+809,19,Male,Sophomore,Psychology,Cash,1151,1183,595,1778,-627
+810,24,Female,Junior,Engineering,Cash,1662,1165,923,2088,-426
+811,19,Male,Freshman,Biology,Mobile Payment App,1456,1241,591,1832,-376
+812,20,Non-binary,Freshman,Economics,Cash,1669,798,644,1442,227
+813,24,Male,Junior,Economics,Credit/Debit Card,1887,1094,992,2086,-199
+814,23,Non-binary,Freshman,Biology,Cash,1568,1276,664,1940,-372
+815,20,Female,Junior,Psychology,Mobile Payment App,652,1025,631,1656,-1004
+816,19,Male,Sophomore,Economics,Credit/Debit Card,2251,771,755,1526,725
+817,18,Female,Freshman,Economics,Mobile Payment App,1853,1037,479,1516,337
+818,18,Non-binary,Senior,Computer Science,Credit/Debit Card,1406,996,629,1625,-219
+819,20,Female,Freshman,Psychology,Mobile Payment App,2310,1082,956,2038,272
+820,24,Non-binary,Sophomore,Biology,Cash,1864,753,792,1545,319
+821,24,Male,Senior,Engineering,Mobile Payment App,2358,1119,731,1850,508
+822,22,Non-binary,Junior,Biology,Credit/Debit Card,1878,1276,331,1607,271
+823,19,Male,Junior,Psychology,Mobile Payment App,2259,1029,684,1713,546
+824,22,Female,Junior,Computer Science,Credit/Debit Card,1455,659,620,1279,176
+825,20,Non-binary,Sophomore,Psychology,Mobile Payment App,1033,782,929,1711,-678
+826,25,Non-binary,Junior,Economics,Cash,1780,1128,755,1883,-103
+827,22,Female,Senior,Biology,Mobile Payment App,1949,1270,665,1935,14
+828,21,Male,Sophomore,Biology,Credit/Debit Card,1401,1000,737,1737,-336
+829,19,Female,Junior,Biology,Mobile Payment App,1490,1333,623,1956,-466
+830,21,Non-binary,Junior,Computer Science,Credit/Debit Card,1535,1104,912,2016,-481
+831,25,Non-binary,Senior,Biology,Credit/Debit Card,2048,1445,741,2186,-138
+832,25,Male,Senior,Biology,Credit/Debit Card,1635,1113,1019,2132,-497
+833,18,Female,Freshman,Biology,Mobile Payment App,1228,739,785,1524,-296
+834,18,Female,Freshman,Economics,Credit/Debit Card,1827,696,911,1607,220
+835,22,Male,Junior,Economics,Mobile Payment App,873,1135,701,1836,-963
+836,20,Non-binary,Sophomore,Biology,Mobile Payment App,1510,1035,803,1838,-328
+837,21,Non-binary,Sophomore,Engineering,Mobile Payment App,1083,1049,620,1669,-586
+838,19,Male,Senior,Engineering,Mobile Payment App,1543,1209,669,1878,-335
+839,22,Female,Senior,Computer Science,Mobile Payment App,1334,1179,682,1861,-527
+840,24,Male,Sophomore,Economics,Cash,1772,1173,565,1738,34
+841,24,Non-binary,Freshman,Biology,Credit/Debit Card,1642,1158,546,1704,-62
+842,22,Non-binary,Junior,Psychology,Mobile Payment App,1921,1258,876,2134,-213
+843,25,Male,Senior,Economics,Credit/Debit Card,862,1350,598,1948,-1086
+844,19,Female,Senior,Biology,Credit/Debit Card,1508,968,986,1954,-446
+845,19,Male,Senior,Biology,Credit/Debit Card,1657,901,907,1808,-151
+846,21,Non-binary,Freshman,Biology,Cash,1447,1484,882,2366,-919
+847,23,Female,Junior,Biology,Credit/Debit Card,1179,663,769,1432,-253
+848,23,Non-binary,Junior,Biology,Mobile Payment App,1268,1192,677,1869,-601
+849,19,Female,Junior,Engineering,Cash,1249,1419,932,2351,-1102
+850,23,Non-binary,Junior,Economics,Credit/Debit Card,2169,985,818,1803,366
+851,18,Female,Sophomore,Economics,Mobile Payment App,816,1224,904,2128,-1312
+852,25,Non-binary,Sophomore,Computer Science,Credit/Debit Card,1763,1206,420,1626,137
+853,21,Male,Senior,Biology,Cash,1921,939,844,1783,138
+854,24,Female,Sophomore,Computer Science,Mobile Payment App,2052,938,756,1694,358
+855,24,Female,Junior,Computer Science,Cash,2131,1171,913,2084,47
+856,21,Male,Senior,Engineering,Mobile Payment App,1961,1253,830,2083,-122
+857,19,Male,Sophomore,Psychology,Mobile Payment App,822,1178,818,1996,-1174
+858,19,Non-binary,Senior,Computer Science,Mobile Payment App,1542,1290,704,1994,-452
+859,18,Male,Sophomore,Economics,Mobile Payment App,1082,1102,920,2022,-940
+860,19,Male,Freshman,Engineering,Cash,1139,1156,774,1930,-791
+861,18,Male,Freshman,Computer Science,Cash,2167,1296,583,1879,288
+862,22,Female,Freshman,Engineering,Cash,1460,1053,646,1699,-239
+863,23,Male,Senior,Engineering,Cash,1493,1257,1033,2290,-797
+864,25,Non-binary,Senior,Biology,Cash,1071,1375,802,2177,-1106
+865,24,Non-binary,Freshman,Engineering,Mobile Payment App,1666,912,869,1781,-115
+866,22,Male,Freshman,Psychology,Mobile Payment App,1816,919,827,1746,70
+867,24,Female,Sophomore,Computer Science,Mobile Payment App,1329,1080,474,1554,-225
+868,21,Female,Freshman,Economics,Cash,1721,905,772,1677,44
+869,19,Male,Sophomore,Engineering,Cash,1297,977,528,1505,-208
+870,21,Non-binary,Freshman,Psychology,Mobile Payment App,1870,1175,796,1971,-101
+871,25,Male,Senior,Economics,Credit/Debit Card,1106,1123,581,1704,-598
+872,24,Male,Sophomore,Psychology,Credit/Debit Card,2018,969,644,1613,405
+873,25,Male,Junior,Economics,Cash,1430,1136,583,1719,-289
+874,20,Female,Junior,Biology,Cash,1862,1154,809,1963,-101
+875,21,Female,Sophomore,Engineering,Mobile Payment App,1810,1155,806,1961,-151
+876,18,Male,Freshman,Biology,Mobile Payment App,923,951,465,1416,-493
+877,21,Female,Sophomore,Engineering,Mobile Payment App,1525,1256,714,1970,-445
+878,19,Male,Senior,Psychology,Cash,2495,1274,665,1939,556
+879,25,Male,Sophomore,Engineering,Cash,1536,1077,891,1968,-432
+880,25,Male,Senior,Economics,Credit/Debit Card,1881,1200,1118,2318,-437
+881,19,Male,Freshman,Engineering,Cash,798,1120,1082,2202,-1404
+882,24,Female,Senior,Psychology,Credit/Debit Card,1590,1106,507,1613,-23
+883,18,Non-binary,Sophomore,Psychology,Credit/Debit Card,2135,991,658,1649,486
+884,24,Non-binary,Sophomore,Psychology,Cash,2282,1301,703,2004,278
+885,25,Male,Sophomore,Biology,Cash,914,1201,665,1866,-952
+886,24,Female,Junior,Economics,Credit/Debit Card,1871,889,767,1656,215
+887,24,Female,Sophomore,Psychology,Cash,1952,927,621,1548,404
+888,25,Male,Freshman,Biology,Mobile Payment App,1503,1426,910,2336,-833
+889,22,Male,Sophomore,Biology,Mobile Payment App,2010,1116,631,1747,263
+890,24,Male,Freshman,Psychology,Cash,1541,1283,687,1970,-429
+891,21,Non-binary,Sophomore,Economics,Mobile Payment App,1117,714,742,1456,-339
+892,25,Non-binary,Junior,Biology,Cash,1702,863,614,1477,225
+893,21,Male,Junior,Biology,Mobile Payment App,1415,1163,562,1725,-310
+894,21,Non-binary,Freshman,Psychology,Credit/Debit Card,1478,829,611,1440,38
+895,18,Male,Junior,Psychology,Mobile Payment App,938,1024,815,1839,-901
+896,18,Male,Junior,Economics,Cash,636,1003,616,1619,-983
+897,25,Male,Junior,Biology,Cash,1249,1242,644,1886,-637
+898,24,Non-binary,Freshman,Psychology,Cash,1459,1168,583,1751,-292
+899,23,Non-binary,Junior,Biology,Credit/Debit Card,1186,1138,692,1830,-644
+900,18,Male,Sophomore,Engineering,Mobile Payment App,2385,1093,637,1730,655
+901,22,Male,Senior,Engineering,Credit/Debit Card,921,1220,1108,2328,-1407
+902,21,Non-binary,Junior,Economics,Cash,1249,992,794,1786,-537
+903,25,Male,Freshman,Computer Science,Credit/Debit Card,1574,949,854,1803,-229
+904,19,Non-binary,Sophomore,Psychology,Mobile Payment App,1634,834,939,1773,-139
+905,20,Male,Sophomore,Computer Science,Mobile Payment App,2308,1104,749,1853,455
+906,22,Female,Senior,Economics,Mobile Payment App,913,1175,462,1637,-724
+907,18,Male,Freshman,Psychology,Cash,1802,1035,838,1873,-71
+908,20,Male,Senior,Economics,Cash,2440,842,564,1406,1034
+909,24,Female,Sophomore,Biology,Credit/Debit Card,1693,564,592,1156,537
+910,21,Female,Freshman,Computer Science,Mobile Payment App,1387,1168,423,1591,-204
+911,23,Female,Senior,Engineering,Credit/Debit Card,1236,954,1019,1973,-737
+912,20,Female,Junior,Economics,Mobile Payment App,1416,1330,806,2136,-720
+913,21,Non-binary,Senior,Biology,Credit/Debit Card,1124,930,801,1731,-607
+914,25,Female,Sophomore,Psychology,Mobile Payment App,1654,1165,699,1864,-210
+915,25,Female,Senior,Engineering,Cash,981,938,610,1548,-567
+916,21,Male,Senior,Engineering,Mobile Payment App,2375,710,883,1593,782
+917,20,Non-binary,Sophomore,Economics,Credit/Debit Card,1116,959,749,1708,-592
+918,23,Non-binary,Freshman,Economics,Credit/Debit Card,2019,1270,669,1939,80
+919,23,Male,Junior,Economics,Cash,1254,1036,834,1870,-616
+920,21,Male,Freshman,Psychology,Credit/Debit Card,2179,1240,957,2197,-18
+921,19,Female,Sophomore,Economics,Mobile Payment App,1156,940,794,1734,-578
+922,18,Male,Senior,Computer Science,Credit/Debit Card,1830,808,506,1314,516
+923,25,Male,Sophomore,Economics,Mobile Payment App,1672,847,706,1553,119
+924,20,Female,Senior,Economics,Credit/Debit Card,1506,844,877,1721,-215
+925,24,Female,Freshman,Biology,Mobile Payment App,1526,979,746,1725,-199
+926,23,Female,Junior,Engineering,Cash,1753,879,771,1650,103
+927,23,Non-binary,Sophomore,Economics,Credit/Debit Card,1636,996,706,1702,-66
+928,19,Non-binary,Junior,Computer Science,Cash,2169,800,868,1668,501
+929,23,Non-binary,Junior,Economics,Mobile Payment App,1487,1189,924,2113,-626
+930,23,Female,Senior,Economics,Mobile Payment App,1613,1390,1022,2412,-799
+931,22,Male,Senior,Economics,Credit/Debit Card,1724,1211,768,1979,-255
+932,22,Female,Senior,Computer Science,Mobile Payment App,1590,948,703,1651,-61
+933,25,Non-binary,Freshman,Engineering,Cash,1640,942,878,1820,-180
+934,19,Non-binary,Junior,Computer Science,Cash,1080,860,870,1730,-650
+935,24,Non-binary,Senior,Computer Science,Cash,1502,1079,590,1669,-167
+936,20,Non-binary,Sophomore,Biology,Mobile Payment App,941,616,696,1312,-371
+937,18,Female,Freshman,Biology,Credit/Debit Card,1062,1048,877,1925,-863
+938,24,Female,Sophomore,Engineering,Mobile Payment App,1772,1399,784,2183,-411
+939,18,Non-binary,Junior,Psychology,Credit/Debit Card,1713,1037,926,1963,-250
+940,21,Female,Senior,Engineering,Credit/Debit Card,1411,1111,677,1788,-377
+941,19,Female,Freshman,Economics,Credit/Debit Card,1519,841,961,1802,-283
+942,22,Non-binary,Senior,Psychology,Credit/Debit Card,1738,1119,829,1948,-210
+943,22,Female,Sophomore,Computer Science,Cash,908,1233,725,1958,-1050
+944,24,Male,Sophomore,Computer Science,Mobile Payment App,1689,1398,619,2017,-328
+945,24,Female,Freshman,Engineering,Mobile Payment App,1823,1090,693,1783,40
+946,24,Non-binary,Sophomore,Economics,Credit/Debit Card,2080,1174,676,1850,230
+947,20,Female,Junior,Computer Science,Mobile Payment App,1675,783,767,1550,125
+948,19,Female,Sophomore,Computer Science,Cash,1472,925,742,1667,-195
+949,18,Non-binary,Senior,Biology,Credit/Debit Card,1602,819,646,1465,137
+950,22,Female,Sophomore,Psychology,Mobile Payment App,1725,873,778,1651,74
+951,25,Male,Freshman,Economics,Credit/Debit Card,1145,841,330,1171,-26
+952,21,Non-binary,Freshman,Economics,Cash,1292,919,896,1815,-523
+953,21,Male,Sophomore,Computer Science,Credit/Debit Card,861,1016,651,1667,-806
+954,25,Male,Freshman,Engineering,Cash,1561,973,819,1792,-231
+955,25,Female,Sophomore,Psychology,Mobile Payment App,724,1130,517,1647,-923
+956,20,Female,Senior,Psychology,Credit/Debit Card,1542,899,783,1682,-140
+957,20,Non-binary,Junior,Computer Science,Cash,1586,1016,919,1935,-349
+958,22,Male,Senior,Economics,Mobile Payment App,1836,1213,499,1712,124
+959,23,Female,Senior,Psychology,Mobile Payment App,1101,1166,672,1838,-737
+960,25,Male,Senior,Computer Science,Cash,1573,852,585,1437,136
+961,22,Male,Senior,Economics,Credit/Debit Card,1491,951,567,1518,-27
+962,24,Non-binary,Sophomore,Biology,Mobile Payment App,1550,1282,616,1898,-348
+963,22,Non-binary,Senior,Computer Science,Mobile Payment App,1757,854,730,1584,173
+964,25,Male,Freshman,Computer Science,Mobile Payment App,1394,1427,706,2133,-739
+965,24,Non-binary,Sophomore,Economics,Cash,672,818,834,1652,-980
+966,19,Male,Junior,Engineering,Mobile Payment App,1508,1286,798,2084,-576
+967,18,Male,Junior,Computer Science,Mobile Payment App,847,1196,572,1768,-921
+968,21,Male,Sophomore,Engineering,Cash,983,853,818,1671,-688
+969,24,Non-binary,Junior,Engineering,Credit/Debit Card,2088,1307,789,2096,-8
+970,25,Female,Senior,Psychology,Mobile Payment App,1538,824,686,1510,28
+971,19,Non-binary,Sophomore,Engineering,Credit/Debit Card,1481,812,807,1619,-138
+972,21,Female,Senior,Psychology,Cash,1877,1326,736,2062,-185
+973,19,Male,Junior,Computer Science,Cash,2143,836,465,1301,842
+974,18,Female,Senior,Computer Science,Cash,1890,945,908,1853,37
+975,19,Non-binary,Freshman,Computer Science,Credit/Debit Card,1861,995,781,1776,85
+976,25,Male,Junior,Biology,Mobile Payment App,1928,1533,854,2387,-459
+977,18,Female,Junior,Engineering,Mobile Payment App,1398,1031,730,1761,-363
+978,23,Female,Freshman,Computer Science,Mobile Payment App,671,1279,939,2218,-1547
+979,20,Male,Senior,Economics,Mobile Payment App,1240,1100,926,2026,-786
+980,18,Non-binary,Senior,Engineering,Mobile Payment App,1608,1120,608,1728,-120
+981,24,Non-binary,Junior,Computer Science,Credit/Debit Card,676,1061,679,1740,-1064
+982,19,Female,Freshman,Computer Science,Mobile Payment App,1631,1181,940,2121,-490
+983,20,Female,Junior,Psychology,Cash,1837,911,754,1665,172
+984,25,Non-binary,Freshman,Economics,Mobile Payment App,1849,1065,729,1794,55
+985,19,Female,Senior,Biology,Cash,1668,944,696,1640,28
+986,23,Female,Junior,Computer Science,Cash,2077,1033,709,1742,335
+987,22,Male,Junior,Psychology,Credit/Debit Card,1303,820,940,1760,-457
+988,23,Male,Senior,Engineering,Cash,1328,1227,469,1696,-368
+989,22,Female,Junior,Computer Science,Cash,1764,766,1007,1773,-9
+990,20,Non-binary,Senior,Psychology,Mobile Payment App,1567,804,771,1575,-8
+991,24,Non-binary,Junior,Psychology,Cash,1650,1161,362,1523,127
+992,20,Male,Freshman,Economics,Credit/Debit Card,1965,643,828,1471,494
+993,20,Male,Freshman,Psychology,Mobile Payment App,1974,1159,721,1880,94
+994,22,Male,Senior,Psychology,Mobile Payment App,1050,817,647,1464,-414
+995,22,Female,Senior,Biology,Cash,1866,1324,702,2026,-160
+996,19,Female,Senior,Biology,Mobile Payment App,1967,964,698,1662,305
+997,20,Male,Junior,Economics,Mobile Payment App,1350,1110,687,1797,-447
+998,22,Non-binary,Senior,Economics,Mobile Payment App,1786,924,754,1678,108
+999,24,Non-binary,Sophomore,Computer Science,Cash,1181,1021,960,1981,-800
