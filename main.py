@@ -40,6 +40,5 @@ with st.sidebar:
       st.rerun()  # 자동 새로고침
 
 for menu in menus.keys():
-
   if st.session_state['page']==menu:
     menus[menu]()

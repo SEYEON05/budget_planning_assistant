@@ -60,9 +60,15 @@ def pattern_analyis():
   # 고정지출과 변동지출 그래프
   st.divider()
   st.subheader("고정지출과 변동지출 그래프")
-  tmp_total_profit = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
+  st.markdown(f"대학생 1000명의 고정지출과 변동지출을 나타낸 그래프이다.")
+  st.markdown(f"total_fixed_spending은 각 학생들에 대한 {fixed_spending_cols}의 합이다.")
+  st.markdown(f"total_variable_spending은 각 학생들에 대한 {variable_spending_col}의 합이다. ")
+
+  tmp_spending = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
+  
   with st.container(border=True):
-    st.line_chart(tmp_total_profit)  
+    st.line_chart(tmp_spending)
+    st.info("total_fixed")
   
   # 두 개의 기본 정보에 따른 변수 그래프 -> 보류
   # sns.set_theme(style="whitegrid")
@@ -86,24 +92,18 @@ def pattern_analyis():
   if standard in standard_cols:
     cols_to_drop = [col for col in standard_cols if col != standard]
     tmp = tmp[tmp.columns].drop(columns=cols_to_drop)
-    st.markdown(f"**{standard} 에 따른 소비 형태**")
-
+  
+  # 기본 정보에 따른 지출 항목 그래프
+  st.markdown(f"**{standard} 에 따른 지출 항목 그래프**")
   tmp_mean = tmp.groupby(standard).mean()
   tmp_mean_T = tmp_mean.T
   with st.container(border=True):
     st.line_chart(tmp_mean_T, height=600)
     
-  # seaborn을 사용한 그래프 그리기 시도, 결과: 별로
-  fig, ax = plt.subplots()
-  sns.lineplot(data=tmp_mean_T)
-  ax.set_title(f"**{standard} 에 따른 소비 형태**")
-  st.pyplot(fig)
-
-
+  # 기본 정보에 따른 수입과 지출
   st.divider()
-  st.subheader("수입과 지출 분석")
+  st.markdown(f"**{standard} 에 따른 수입과 지출 분석**")
   sns.set_theme()
-
   g = sns.lmplot(
     data=analyzed_data,
     x="total_profit", y="total_spending", hue=standard,
@@ -116,15 +116,10 @@ def pattern_analyis():
       st.info("선호 지출 방식에 따른 수입-지출 분석 결과")
       st.markdown("카드를 사용하는 사용자가 가장 많은 지출을 하는 것으로 분석된다.")
 
+  # 기본 정보에 따른 수입과 고정지출
   st.divider()
-  st.subheader("수입과 저축 분석")
-  with st.container(border=True):
-    st.area_chart(analyzed_data, x='total_profit', y='savings')
-
-  st.divider()
-  st.subheader("기본 정보에 따른 총수익-고정지출 그래프")
+  st.markdown(f"**{standard}에 따른 총수익-고정지출 그래프**")
   sns.set_theme()
-
   g = sns.lmplot(
     data=analyzed_data,
     x="total_profit", y="total_fixed_spending", hue=standard,
@@ -134,11 +129,10 @@ def pattern_analyis():
   with st.container(border=True):  
     st.pyplot(g)
 
-
+# 기본 정보에 따른 수입과 변동지출
   st.divider()
   st.subheader("기본 정보에 따른 총수익-변동지출 그래프")
   sns.set_theme()
-
   g = sns.lmplot(
     data=analyzed_data,
     x="total_profit", y="total_variable_spending", hue=standard,
@@ -147,6 +141,12 @@ def pattern_analyis():
   g.set_axis_labels("total_profit", "total_variable_spending")
   with st.container(border=True):  
     st.pyplot(g)
+
+# 수입에 따른 저축 그래프
+  st.divider()
+  st.subheader("수입과 저축 분석")
+  with st.container(border=True):
+    st.area_chart(analyzed_data, x='total_profit', y='savings')
 
 # 예산 계획 도우미 페이지
 def planner():
