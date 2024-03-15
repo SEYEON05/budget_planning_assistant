@@ -57,27 +57,27 @@ def pattern_analyis():
   tmp = tmp[tmp.columns].drop(columns=['tuition'])
 
 
-  # monthly_income과 financial_aid에 따른 소득 형태
+  # 고정지출과 변동지출 그래프
   st.divider()
   st.subheader("고정지출과 변동지출 그래프")
   tmp_total_profit = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
-  
-  sns.set_theme(style="whitegrid")
-
-  h = sns.catplot(
-    data=analyzed_data, kind='bar',
-    x='year_in_school', y='total_variable_spending', hue='gender',
-    errorbar='sd', palette='dark', alpha=.6, height=6
-  )
-  h.despine(left=True)
-  h.set_axis_labels("age", "savings")
   with st.container(border=True):
-    st.line_chart(tmp_total_profit)
-    st.pyplot(h)
+    st.line_chart(tmp_total_profit)  
+  
+  # 두 개의 기본 정보에 따른 변수 그래프 -> 보류
+  # sns.set_theme(style="whitegrid")
+  # h = sns.catplot(
+  #   data=analyzed_data, kind='bar',
+  #   x='year_in_school', y='total_variable_spending', hue='gender',
+  #   errorbar='sd', palette='dark', alpha=.6, height=6
+  # )
+  # h.despine(left=True)
+  # h.set_axis_labels("age", "savings")
+  # with st.container(border=True):
+  #   st.pyplot(h)
 
 
   # 셀렉트박스 중 하나를 선택 시, 스탠다드를 기준으로 평균치가 계산되게
-  # standard = st.selectbox('항목을 선택하세요.', ("age", "gender", "year_in_school", "major", "preferred_payment_method"))
   st.divider()
   st.subheader("기본 정보에 따른 소비 형태")
   standard = st.selectbox('항목을 선택하세요.', ("Age", "Gender", "Year_in_School", "Major", "Preferred_Payment_Method")).lower()
@@ -87,17 +87,17 @@ def pattern_analyis():
     cols_to_drop = [col for col in standard_cols if col != standard]
     tmp = tmp[tmp.columns].drop(columns=cols_to_drop)
     st.markdown(f"**{standard} 에 따른 소비 형태**")
-  # st.write(tmp)
+
   tmp_mean = tmp.groupby(standard).mean()
   tmp_mean_T = tmp_mean.T
   with st.container(border=True):
     st.line_chart(tmp_mean_T, height=600)
     
   # seaborn을 사용한 그래프 그리기 시도, 결과: 별로
-  # fig, ax = plt.subplots()
-  # sns.lineplot(data=tmp_mean_T)
-  # ax.set_title(f"**{standard} 에 따른 소비 형태**")
-  # st.pyplot(fig)
+  fig, ax = plt.subplots()
+  sns.lineplot(data=tmp_mean_T)
+  ax.set_title(f"**{standard} 에 따른 소비 형태**")
+  st.pyplot(fig)
 
 
   st.divider()
@@ -120,6 +120,33 @@ def pattern_analyis():
   st.subheader("수입과 저축 분석")
   with st.container(border=True):
     st.area_chart(analyzed_data, x='total_profit', y='savings')
+
+  st.divider()
+  st.subheader("기본 정보에 따른 총수익-고정지출 그래프")
+  sns.set_theme()
+
+  g = sns.lmplot(
+    data=analyzed_data,
+    x="total_profit", y="total_fixed_spending", hue=standard,
+    height=7
+  )
+  g.set_axis_labels("total_profit", "total_fixed_spending")
+  with st.container(border=True):  
+    st.pyplot(g)
+
+
+  st.divider()
+  st.subheader("기본 정보에 따른 총수익-변동지출 그래프")
+  sns.set_theme()
+
+  g = sns.lmplot(
+    data=analyzed_data,
+    x="total_profit", y="total_variable_spending", hue=standard,
+    height=7
+  )
+  g.set_axis_labels("total_profit", "total_variable_spending")
+  with st.container(border=True):  
+    st.pyplot(g)
 
 # 예산 계획 도우미 페이지
 def planner():
