@@ -59,16 +59,24 @@ def pattern_analyis():
 
   # 고정지출과 변동지출 그래프
   st.divider()
-  st.subheader("고정지출과 변동지출 그래프")
-  st.markdown(f"대학생 1000명의 고정지출과 변동지출을 나타낸 그래프이다.")
-  st.markdown(f"total_fixed_spending은 각 학생들에 대한 {fixed_spending_cols}의 합이다.")
-  st.markdown(f"total_variable_spending은 각 학생들에 대한 {variable_spending_col}의 합이다. ")
+  with st.expander("**고정지출과 변동지출 그래프**"):
+    st.text("대학생 1000명의 총 고정지출과 총 변동지출을 나타낸 그래프이다.")
+    
+    tmp_spending = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
+    mean_fixed_spending = analyzed_data['total_fixed_spending'].mean()
+    mean_variable_spending = analyzed_data['total_variable_spending'].mean()
+    mean_total_spending = analyzed_data['total_spending'].mean()
+    with st.container(border=True):
+      st.caption('단위: 달러')
+      st.line_chart(tmp_spending)
+    st.info(f"""총 고정지출(total_fixed_spending)은 각 학생들에 대한
+{fixed_spending_cols}의 합이다.
 
-  tmp_spending = pd.DataFrame(analyzed_data, columns=['total_fixed_spending', 'total_variable_spending'])
-  
-  with st.container(border=True):
-    st.line_chart(tmp_spending)
-    st.info("total_fixed")
+총 변동지출(total_variable_spending)은 각 학생들에 대한
+{variable_spending_col}의 합이다.
+
+총 고정지출은 대체로 총 변동지출보다 많다. 학생들의 평균 고정지출은 {mean_fixed_spending} 달러이고, 평균 변동지출은 {mean_variable_spending} 달러이다.
+따라서, 학생들의 한달 평균 지출은 {mean_total_spending} 달러임을 확인할 수 있다.""")
   
   # 두 개의 기본 정보에 따른 변수 그래프 -> 보류
   # sns.set_theme(style="whitegrid")
@@ -84,7 +92,7 @@ def pattern_analyis():
 
 
   # 셀렉트박스 중 하나를 선택 시, 스탠다드를 기준으로 평균치가 계산되게
-  st.divider()
+
   st.subheader("기본 정보에 따른 소비 형태")
   standard = st.selectbox('항목을 선택하세요.', ("Age", "Gender", "Year_in_School", "Major", "Preferred_Payment_Method")).lower()
   standard_cols = ['age', 'gender', 'year_in_school', 'major', 'preferred_payment_method', 'monthly_income', 'financial_aid']
