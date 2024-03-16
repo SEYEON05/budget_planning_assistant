@@ -79,16 +79,16 @@ def pattern_analyis():
 따라서, 학생들의 한달 평균 지출은 {mean_total_spending} 달러임을 확인할 수 있다.""")
   
   # 두 개의 기본 정보에 따른 변수 그래프 -> 보류
-  # sns.set_theme(style="whitegrid")
-  # h = sns.catplot(
-  #   data=analyzed_data, kind='bar',
-  #   x='year_in_school', y='total_variable_spending', hue='gender',
-  #   errorbar='sd', palette='dark', alpha=.6, height=6
-  # )
-  # h.despine(left=True)
-  # h.set_axis_labels("age", "savings")
-  # with st.container(border=True):
-  #   st.pyplot(h)
+  sns.set_theme(style="whitegrid")
+  h = sns.catplot(
+    data=analyzed_data, kind='bar',
+    x='year_in_school', y='total_variable_spending', hue='gender',
+    errorbar='sd', palette='dark', alpha=.6, height=6
+  )
+  h.despine(left=True)
+  h.set_axis_labels("age", "savings")
+  with st.container(border=True):
+    st.pyplot(h)
 
 
   # 셀렉트박스 중 하나를 선택 시, 스탠다드를 기준으로 평균치가 계산되게
