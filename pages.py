@@ -51,11 +51,10 @@ def pattern_analyis():
   for col in cols_to_convert:
     tmp[col] = pd.to_numeric(tmp[col], errors='coerce')
   
-  # 안 쓰는 컬럼 ['tuition', 'monthly_income', 'financial_aid'] 제거
+  # 안 쓰는 컬럼 'tuition' 제거
   fixed_spending_cols = ['housing', 'personal_care', 'technology', 'health_wellness']
   variable_spending_col = ['food', 'transportation', 'books_supplies', 'entertainment', 'miscellaneous']
   tmp = tmp[tmp.columns].drop(columns=['tuition'])
-
 
   # 고정지출과 변동지출 그래프
   st.divider()
@@ -109,7 +108,8 @@ def pattern_analyis():
     h = sns.catplot(
       data=analyzed_data, kind='bar',
       x='classified_profit', y='savings', hue=standard,
-      errorbar='sd', palette='dark', alpha=.6, height=6
+      errorbar='sd', palette='dark', alpha=.6, height=6,
+      order=['under 1000', '1000-1500', '1500-2000', '2000-2500']
     )
     h.despine(left=True)
     h.set_axis_labels("classified_profit", "savings")
@@ -163,13 +163,17 @@ def pattern_analyis():
 
 # 예산 계획 도우미 페이지
 def planner():
+  dfp = data.copy()
   st.subheader('예산 계획 도우미')
+  my_age = st.selectbox('나이를 선택하세요.', sorted(dfp['age'].unique()))
+  my_gender = st.selectbox('성별을 선택하세요.', dfp['gender'].unique())
+  my_major = st.selectbox('전공을 선택하세요.', dfp['major'].unique())
+  my_yis = st.selectbox('학년을 선택하세요.', dfp['year_in_school'].unique())
+  my_ppm = st.selectbox('선호하는 결제 방법을 선택하세요.', dfp['preferred_payment_method'].unique())
   my_income = st.number_input("이번 달 예상 수입을 입력하세요.")
-  my_savings = st.number_input("이번 달 저축액을 입력하세요.")
-  my_fixed = st.number_input("나의 고정지출을 입력하세요.")
-  available = my_income - my_savings
-  available_fixed = available * 0.58
-  available_variable = available - my_fixed
+
+  my_fixed = st.number_input("나의 고정지출을 입력하세요.") 
+
   
   
   # 아래 결과화면은 버튼을 누르면 실행되게
