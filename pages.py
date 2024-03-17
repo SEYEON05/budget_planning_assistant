@@ -77,84 +77,89 @@ def pattern_analyis():
 
 총 고정지출은 대체로 총 변동지출보다 많다. 학생들의 평균 고정지출은 {mean_fixed_spending} 달러이고, 평균 변동지출은 {mean_variable_spending} 달러이다.
 따라서, 학생들의 한달 평균 지출은 {mean_total_spending} 달러임을 확인할 수 있다.""")
-  
-  # 두 개의 기본 정보에 따른 변수 그래프 -> 보류
-  sns.set_theme(style="whitegrid")
-  h = sns.catplot(
-    data=analyzed_data, kind='bar',
-    x='year_in_school', y='total_variable_spending', hue='gender',
-    errorbar='sd', palette='dark', alpha=.6, height=6
-  )
-  h.despine(left=True)
-  h.set_axis_labels("age", "savings")
-  with st.container(border=True):
-    st.pyplot(h)
 
 
   # 셀렉트박스 중 하나를 선택 시, 스탠다드를 기준으로 평균치가 계산되게
 
   st.subheader("기본 정보에 따른 소비 형태")
-  standard = st.selectbox('항목을 선택하세요.', ("Age", "Gender", "Year_in_School", "Major", "Preferred_Payment_Method")).lower()
-  standard_cols = ['age', 'gender', 'year_in_school', 'major', 'preferred_payment_method', 'monthly_income', 'financial_aid']
+  standard = st.selectbox('항목을 선택하세요.', ("Age", "Gender", "Year_in_School", "Major", "Preferred_Payment_Method", "Classified_Profit")).lower()
+  standard_cols = ['age', 'gender', 'year_in_school', 'major', 'preferred_payment_method', 'monthly_income', 'financial_aid', 'classified_profit']
   
   if standard in standard_cols:
     cols_to_drop = [col for col in standard_cols if col != standard]
     tmp = tmp[tmp.columns].drop(columns=cols_to_drop)
-  
+
+
   # 기본 정보에 따른 지출 항목 그래프
-  st.markdown(f"**{standard} 에 따른 지출 항목 그래프**")
-  tmp_mean = tmp.groupby(standard).mean()
-  tmp_mean_T = tmp_mean.T
-  with st.container(border=True):
-    st.line_chart(tmp_mean_T, height=600)
+  with st.expander(f"**{standard} 에 따른 지출 항목 그래프**"):
+    st.markdown(f"**{standard} 에 따른 지출 항목 그래프**")
+    tmp_mean = tmp.groupby(standard).mean()
+    tmp_mean_T = tmp_mean.T
+    with st.container(border=True):
+      st.line_chart(tmp_mean_T, height=600)
+
+  # 수입에 따른 저축 그래프
+  with st.expander("**수입과 저축 분석**"):
+    # st.markdown("수입과 저축 그래프")
+    # with st.container(border=True):
+    #   st.area_chart(analyzed_data, x='total_profit', y='savings')
     
+    # 두 개의 기본 정보에 따른 변수 그래프
+    sns.set_theme(style="whitegrid")
+    h = sns.catplot(
+      data=analyzed_data, kind='bar',
+      x='classified_profit', y='savings', hue=standard,
+      errorbar='sd', palette='dark', alpha=.6, height=6
+    )
+    h.despine(left=True)
+    h.set_axis_labels("classified_profit", "savings")
+    st.markdown("수입 정도에 따른 저축 그래프")
+    with st.container(border=True):
+      st.pyplot(h)
+
   # 기본 정보에 따른 수입과 지출
-  st.divider()
-  st.markdown(f"**{standard} 에 따른 수입과 지출 분석**")
-  sns.set_theme()
-  g = sns.lmplot(
-    data=analyzed_data,
-    x="total_profit", y="total_spending", hue=standard,
-    height=7
-  )
-  g.set_axis_labels("total_profit", "total_spending")
-  with st.container(border=True):  
-    st.pyplot(g)
-    if standard == 'preferred_payment_method':
-      st.info("선호 지출 방식에 따른 수입-지출 분석 결과")
-      st.markdown("카드를 사용하는 사용자가 가장 많은 지출을 하는 것으로 분석된다.")
+  with st.expander(f"**{standard} 에 따른 수입과 지출 분석**"):
+    st.markdown(f"**{standard} 에 따른 수입과 지출 분석**")
+    sns.set_theme()
+    g = sns.lmplot(
+      data=analyzed_data,
+      x="total_profit", y="total_spending", hue=standard,
+      height=7
+    )
+    g.set_axis_labels("total_profit", "total_spending")
+    with st.container(border=True):  
+      st.pyplot(g)
+      if standard == 'preferred_payment_method':
+        st.info("선호 지출 방식에 따른 수입-지출 분석 결과")
+        st.markdown("카드를 사용하는 사용자가 가장 많은 지출을 하는 것으로 분석된다.")
 
   # 기본 정보에 따른 수입과 고정지출
-  st.divider()
-  st.markdown(f"**{standard}에 따른 총수익-고정지출 그래프**")
-  sns.set_theme()
-  g = sns.lmplot(
-    data=analyzed_data,
-    x="total_profit", y="total_fixed_spending", hue=standard,
-    height=7
-  )
-  g.set_axis_labels("total_profit", "total_fixed_spending")
-  with st.container(border=True):  
-    st.pyplot(g)
+  with st.expander(f"**{standard}에 따른 총수익-고정지출 그래프**"):
+    st.markdown(f"**{standard}에 따른 총수익-고정지출 그래프**")
+    sns.set_theme()
+    g = sns.lmplot(
+      data=analyzed_data,
+      x="total_profit", y="total_fixed_spending", hue=standard,
+      height=7
+    )
+    g.set_axis_labels("total_profit", "total_fixed_spending")
+    with st.container(border=True):  
+      st.pyplot(g)
 
 # 기본 정보에 따른 수입과 변동지출
-  st.divider()
-  st.subheader("기본 정보에 따른 총수익-변동지출 그래프")
-  sns.set_theme()
-  g = sns.lmplot(
-    data=analyzed_data,
-    x="total_profit", y="total_variable_spending", hue=standard,
-    height=7
-  )
-  g.set_axis_labels("total_profit", "total_variable_spending")
-  with st.container(border=True):  
-    st.pyplot(g)
+  with st.expander("**기본 정보에 따른 총수익-변동지출 그래프**"):
+    st.markdown("기본 정보에 따른 총수익-변동지출 그래프")
+    sns.set_theme()
+    g = sns.lmplot(
+      data=analyzed_data,
+      x="total_profit", y="total_variable_spending", hue=standard,
+      height=7
+    )
+    g.set_axis_labels("total_profit", "total_variable_spending")
+    with st.container(border=True):  
+      st.pyplot(g)
 
-# 수입에 따른 저축 그래프
-  st.divider()
-  st.subheader("수입과 저축 분석")
-  with st.container(border=True):
-    st.area_chart(analyzed_data, x='total_profit', y='savings')
+
 
 # 예산 계획 도우미 페이지
 def planner():
