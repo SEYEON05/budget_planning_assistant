@@ -171,33 +171,40 @@ def planner():
   my_yis = st.selectbox('학년을 선택하세요.', dfp['year_in_school'].unique())
   my_ppm = st.selectbox('선호하는 결제 방법을 선택하세요.', dfp['preferred_payment_method'].unique())
   my_income = st.number_input("이번 달 예상 수입을 입력하세요.")
-  
+
+  # 사용자로부터 선택 받을 옵션들
+  options_list = ['집세', '식비', '교통비', '도서구입비', '취미', '퍼스널케어', '통신비', '건강/운동', '잡비']
+
+  # 옵션에 따른 입력 필드 변수명 매핑
+  input_fields = {
+      '집세': '집세를 입력하세요.',
+      '식비': '식비를 입력하세요.',
+      '교통비': '교통비를 입력하세요.',
+      '도서구입비': '도서구입비를 입력하세요.',
+      '취미': '여가비를 입력하세요.',
+      '퍼스널케어': '퍼스널케어를 입력하세요.',
+      '통신비': '통신비를 입력하세요.',
+      '건강/운동': '건강/운동를 입력하세요.',
+      '잡비': '잡비를 입력하세요.'
+  }
+
+  # 사용자가 선택한 옵션
   options = st.multiselect(
-    '다음 중 한달 지출액을 알고 있는 항목을 선택하세요.',
-    ['집세', '식비', '교통비', '도서구입비', '취미', '퍼스널케어', '통신비', '건강/운동', '잡비']
+      '다음 중 한달 지출액을 알고 있는 항목을 선택하세요.',
+      options_list
   )
-  if '집세' in options:
-    my_housing = st.number_input("집세를 입력하세요.")
-  if '식비' in options:
-    my_food = st.number_input("식비를 입력하세요.")
-  if '교통비' in options:
-    my_transportation = st.number_input("교통비를 입력하세요.")
-  if '도서구입비' in options:
-    my_bs = st.number_input("도서구입비를 입력하세요.")
-  if '취미' in options:
-    my_entertainment = st.number_input("여가비를 입력하세요.")
-  if '퍼스널케어' in options:
-    my_pc = st.number_input("퍼스널케어를 입력하세요.")
-  if '통신비' in options:
-    my_technology = st.number_input("통신비를 입력하세요.")
-  if '건강/운동' in options:
-    my_hw = st.number_input("건강/운동를 입력하세요.")
-  if '잡비' in options:
-    my_miscellaneous = st.number_input("잡비를 입력하세요.")
+
+  # 선택된 각 옵션에 대해 입력 필드 생성
+  for option in options:
+      if option in input_fields:
+          globals()[f'my_{option}'] = st.number_input(input_fields[option])
+
 
   condition = (dfp['age']==my_age) & (dfp['major']==my_major) & (dfp['gender']==my_gender) & (dfp['year_in_school']==my_yis) & (dfp['preferred_payment_method']==my_ppm)
   matching_indexes = dfp.index[condition].tolist()
   st.write(matching_indexes)
+
+  
   # 아래 결과화면은 버튼을 누르면 실행되게
   
   # if st.button("실행", type="primary", use_container_width=True) == False:
