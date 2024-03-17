@@ -171,21 +171,43 @@ def planner():
   my_yis = st.selectbox('학년을 선택하세요.', dfp['year_in_school'].unique())
   my_ppm = st.selectbox('선호하는 결제 방법을 선택하세요.', dfp['preferred_payment_method'].unique())
   my_income = st.number_input("이번 달 예상 수입을 입력하세요.")
-
-  my_fixed = st.number_input("나의 고정지출을 입력하세요.") 
-
   
-  
+  options = st.multiselect(
+    '다음 중 한달 지출액을 알고 있는 항목을 선택하세요.',
+    ['집세', '식비', '교통비', '도서구입비', '취미', '퍼스널케어', '통신비', '건강/운동', '잡비']
+  )
+  if '집세' in options:
+    my_housing = st.number_input("집세를 입력하세요.")
+  if '식비' in options:
+    my_food = st.number_input("식비를 입력하세요.")
+  if '교통비' in options:
+    my_transportation = st.number_input("교통비를 입력하세요.")
+  if '도서구입비' in options:
+    my_bs = st.number_input("도서구입비를 입력하세요.")
+  if '취미' in options:
+    my_entertainment = st.number_input("여가비를 입력하세요.")
+  if '퍼스널케어' in options:
+    my_pc = st.number_input("퍼스널케어를 입력하세요.")
+  if '통신비' in options:
+    my_technology = st.number_input("통신비를 입력하세요.")
+  if '건강/운동' in options:
+    my_hw = st.number_input("건강/운동를 입력하세요.")
+  if '잡비' in options:
+    my_miscellaneous = st.number_input("잡비를 입력하세요.")
+
+  condition = (dfp['age']==my_age) & (dfp['major']==my_major) & (dfp['gender']==my_gender) & (dfp['year_in_school']==my_yis) & (dfp['preferred_payment_method']==my_ppm)
+  matching_indexes = dfp.index[condition].tolist()
+  st.write(matching_indexes)
   # 아래 결과화면은 버튼을 누르면 실행되게
   
-  if st.button("실행", type="primary", use_container_width=True) == False:
-    st.markdown("")
-  elif my_fixed > available_fixed:
-    st.text(f"고정지출이 평균보다 {my_fixed - available_fixed}달러 많아요. 줄여야할 필요가 있어요!")
-    st.text(f"변동지출 가능액: {available_variable}")
-  else:
-    st.text("고정지출이 적당해요. 잘하고 있어요!")
-    st.text(f"변동지출 가능액: {available_variable}")
+  # if st.button("실행", type="primary", use_container_width=True) == False:
+  #   st.markdown("")
+  # elif my_fixed > available_fixed:
+  #   st.text(f"고정지출이 평균보다 {my_fixed - available_fixed}달러 많아요. 줄여야할 필요가 있어요!")
+  #   st.text(f"변동지출 가능액: {available_variable}")
+  # else:
+  #   st.text("고정지출이 적당해요. 잘하고 있어요!")
+  #   st.text(f"변동지출 가능액: {available_variable}")
   result = pd.DataFrame()
 
 
