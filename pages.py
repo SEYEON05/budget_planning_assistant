@@ -164,6 +164,29 @@ def pattern_analyis():
 # 예산 계획 도우미 페이지
 def planner():
   st.subheader('예산 계획 도우미')
-  income = st.number_input("이번 달 예상 수입을 입력하세요.")
-  saving = st.number_input("이번 달 저축액을 입력하세요.")
-  available = income - saving
+  my_income = st.number_input("이번 달 예상 수입을 입력하세요.")
+  my_savings = st.number_input("이번 달 저축액을 입력하세요.")
+  my_fixed = st.number_input("나의 고정지출을 입력하세요.")
+  available = my_income - my_savings
+  available_fixed = available * 0.58
+  available_variable = available - my_fixed
+  
+  
+  # 아래 결과화면은 버튼을 누르면 실행되게
+  
+  if st.button("실행", type="primary", use_container_width=True) == False:
+    st.markdown("")
+  elif my_fixed > available_fixed:
+    st.text(f"고정지출이 평균보다 {my_fixed - available_fixed}달러 많아요. 줄여야할 필요가 있어요!")
+    st.text(f"변동지출 가능액: {available_variable}")
+  else:
+    st.text("고정지출이 적당해요. 잘하고 있어요!")
+    st.text(f"변동지출 가능액: {available_variable}")
+  result = pd.DataFrame()
+
+
+  #   # 이전에 데이터프레임 만들고 파일에 입력
+  #   # with open("result.csv", "w") as f:
+  #   #   f.write(# 데이터프레임)  
+
+
