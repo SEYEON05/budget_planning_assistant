@@ -230,44 +230,36 @@ def planner():
   # 사용할 (value가 숫자인)columns만 남기기
   selected_rows = selected_rows.drop(columns=['age', 'gender', 'year_in_school', 'major', 'tuition', 'preferred_payment_method', 'classified_profit'])
   result = pd.DataFrame(data=[selected_rows.min(), selected_rows.mean(), selected_rows.max()], index=['min', 'mean', 'max'])
-  st.write(result)
 
   if st.button("실행", type='primary'):
+    with st.expander("See explanation"):
+      st.info("아래와 같이 슬라이더 가장 왼쪽 값은 사용자가 사용 가능한 최솟값이고, 가장 오른쪽 값은 사용 가능한 최댓값이다.")
+      st.select_slider('예시', options=['min', 'mean', 'max'], value=('mean'))
     col1, col2 = st.columns([5, 5])
+    
+    # 입력 값이 있는 변수와 없는 변수를 분류
+    inputs_with_values = []
+    inputs_without_values = []
     for cate in input_fields:
-        with col1:
-            # user_inputs 딕셔너리를 사용하여 해당 카테고리의 사용자 입력 값이 있는지 확인
-            if input_fields[cate][1] in user_inputs and user_inputs[input_fields[cate][1]] is not None:
-                # 사용자 입력 값이 존재하면, 그 값을 기본값으로 사용
-                default_value = user_inputs[input_fields[cate][1]]
-            else:
-                # 사용자 입력 값이 없으면, 평균값을 기본값으로 사용
-                default_value = result.loc['mean', input_fields[cate][1]]
-            
-            # 슬라이더 생성
+        if input_fields[cate][1] in user_inputs and user_inputs[input_fields[cate][1]] is not None:
+            inputs_with_values.append(cate)
+        else:
+            inputs_without_values.append(cate)
+
+    # 입력 값이 있는 변수에 대한 슬라이더 먼저 생성
+    with col1:
+      st.subheader("사용자 지출액 현황")
+      for cate in inputs_with_values:
+            default_value = user_inputs[input_fields[cate][1]]
+            st.slider(cate, result.loc['min', input_fields[cate][1]], result.loc['max', input_fields[cate][1]], default_value)
+
+    # 입력 값이 없는 변수에 대한 슬라이더 생성
+    with col2:
+      st.subheader("예산 계획")
+      for cate in inputs_without_values:
+            default_value = result.loc['mean', input_fields[cate][1]]
             st.slider(cate, result.loc['min', input_fields[cate][1]], result.loc['max', input_fields[cate][1]], default_value)
   else:
     st.write("")
-
-  # 아래 결과화면은 버튼을 누르면 실행되게
-  
-  # if st.button("실행", type="primary", use_container_width=True) == False:
-  #   st.markdown("")
-  # elif my_fixed > available_fixed:
-  #   st.text(f"고정지출이 평균보다 {my_fixed - available_fixed}달러 많아요. 줄여야할 필요가 있어요!")
-  #   st.text(f"변동지출 가능액: {available_variable}")
-  # else:
-  #   st.text("고정지출이 적당해요. 잘하고 있어요!")
-  #   st.text(f"변동지출 가능액: {available_variable}")
-  
-  # 보류
-  # cols_to_drop = [col for col in input_fields[options][1]]
-  # selected_rows = dfp.loc[matching_indexes].drop(columns=cols_to_drop)
-  # st.write(selected_rows)
-
-
-  #   # 이전에 데이터프레임 만들고 파일에 입력
-  #   # with open("result.csv", "w") as f:
-  #   #   f.write(# 데이터프레임)  
 
 
