@@ -31,7 +31,7 @@ data = load_data()
 #     'preferred_payment_method:', set(data['preferred_payment_method'])
 # data
 
-menus = {'HOME': home, '소비 패턴 분석': pattern_analyis, '예산 계획 도우미': planner}
+menus = {'HOME': home, '소비 패턴 분석': pattern_analyis, '내 지출 수준 분석': planner}
 with st.sidebar:
   for menu in menus.keys():
     # 버튼을 클릭 시, menu에 클릭된 값이 할당됨. 

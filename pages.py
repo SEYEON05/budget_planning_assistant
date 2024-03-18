@@ -164,7 +164,7 @@ def pattern_analyis():
 # 예산 계획 도우미 페이지
 def planner():
   dfp = data.copy()
-  st.subheader('예산 계획 도우미')
+  st.subheader('내 지출 수준 분석')
   # my_age = st.selectbox('나이를 선택하세요.', sorted(dfp['age'].unique()))
   # my_gender = st.selectbox('성별을 선택하세요.', dfp['gender'].unique())
   # my_major = st.selectbox('전공을 선택하세요.', dfp['major'].unique())
@@ -231,9 +231,10 @@ def planner():
   selected_rows = selected_rows.drop(columns=['age', 'gender', 'year_in_school', 'major', 'tuition', 'preferred_payment_method', 'classified_profit'])
   result = pd.DataFrame(data=[selected_rows.min(), selected_rows.mean(), selected_rows.max()], index=['min', 'mean', 'max'])
 
-  if st.button("실행", type='primary'):
+  if st.button("실행", type='primary',use_container_width=True):
     with st.expander("See explanation"):
-      st.info("아래와 같이 슬라이더 가장 왼쪽 값은 사용자가 사용 가능한 최솟값이고, 가장 오른쪽 값은 사용 가능한 최댓값이다.")
+      st.info("""이 프로그램은 사용자가 앞서 입력한 정보를 기반으로, 나와 비슷한 조건의 사용자 데이터를 골라내어 나의 지출수준을 분석한다.
+              아래 슬라이더의 가장 왼쪽 값은 나와 비슷한 조건의 사용자들이 각 지출항목에 사용한 최솟값이고, 가장 오른쪽 값은 사용한 최댓값이다.""")
       st.select_slider('예시', options=['min', 'mean', 'max'], value=('mean'))
     col1, col2 = st.columns([5, 5])
     
@@ -248,18 +249,28 @@ def planner():
 
     # 입력 값이 있는 변수에 대한 슬라이더 먼저 생성
     with col1:
-      st.subheader("사용자 지출액 현황")
+      st.markdown("**내 고정지출 수준 분석**")
+      input_total = 0
       for cate in inputs_with_values:
             default_value = user_inputs[input_fields[cate][1]]
             st.slider(cate, result.loc['min', input_fields[cate][1]], result.loc['max', input_fields[cate][1]], default_value)
-
+            input_total += user_inputs[input_fields[cate][1]]
     # 입력 값이 없는 변수에 대한 슬라이더 생성
     with col2:
-      st.subheader("예산 계획")
+      st.markdown("**예상 변동지출**")
+      min_total, max_total, mean_total = 0, 0, 0
+
       for cate in inputs_without_values:
             default_value = result.loc['mean', input_fields[cate][1]]
             st.slider(cate, result.loc['min', input_fields[cate][1]], result.loc['max', input_fields[cate][1]], default_value)
+            min_total += result.loc['min', input_fields[cate][1]]
+            max_total += result.loc['max', input_fields[cate][1]]
+            mean_total += default_value
+    with st.container():
+      my_total_value = mean_total + input_total
+      st.slider('**이번 달 예상 지출액**', (min_total+input_total), (max_total+input_total), (my_total_value))
   else:
     st.write("")
+
 
 
