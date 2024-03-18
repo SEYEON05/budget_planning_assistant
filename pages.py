@@ -165,27 +165,28 @@ def pattern_analyis():
 def planner():
   dfp = data.copy()
   st.subheader('예산 계획 도우미')
-  my_age = st.selectbox('나이를 선택하세요.', sorted(dfp['age'].unique()))
-  my_gender = st.selectbox('성별을 선택하세요.', dfp['gender'].unique())
-  my_major = st.selectbox('전공을 선택하세요.', dfp['major'].unique())
+  # my_age = st.selectbox('나이를 선택하세요.', sorted(dfp['age'].unique()))
+  # my_gender = st.selectbox('성별을 선택하세요.', dfp['gender'].unique())
+  # my_major = st.selectbox('전공을 선택하세요.', dfp['major'].unique())
+
   my_yis = st.selectbox('학년을 선택하세요.', dfp['year_in_school'].unique())
   my_ppm = st.selectbox('선호하는 결제 방법을 선택하세요.', dfp['preferred_payment_method'].unique())
   my_income = st.number_input("이번 달 예상 수입을 입력하세요.")
 
   # 사용자로부터 선택 받을 옵션들
-  options_list = ['집세', '식비', '교통비', '도서구입비', '취미', '퍼스널케어', '통신비', '건강/운동', '잡비']
+  options_list = ['집세', '식비', '교통비', '도서구입비', '여가비', '퍼스널케어', '통신비', '건강/운동', '잡비']
 
   # 옵션에 따른 입력 필드 변수명 매핑
   input_fields = {
-      '집세': '집세를 입력하세요.',
-      '식비': '식비를 입력하세요.',
-      '교통비': '교통비를 입력하세요.',
-      '도서구입비': '도서구입비를 입력하세요.',
-      '취미': '여가비를 입력하세요.',
-      '퍼스널케어': '퍼스널케어를 입력하세요.',
-      '통신비': '통신비를 입력하세요.',
-      '건강/운동': '건강/운동를 입력하세요.',
-      '잡비': '잡비를 입력하세요.'
+      '집세': ['집세를 입력하세요.', 'housing'],
+      '식비': ['식비를 입력하세요.', 'food'],
+      '교통비': ['교통비를 입력하세요.', 'transportation'],
+      '도서구입비': ['도서구입비를 입력하세요.', 'books_supplies'],
+      '여가비': ['여가비를 입력하세요.', 'entertainment'],
+      '퍼스널케어': ['퍼스널케어를 입력하세요.', 'personal_care'],
+      '통신비': ['통신비를 입력하세요.', 'technology'],
+      '건강/운동': ['건강/운동를 입력하세요.', 'health_wellness'],
+      '잡비': ['잡비를 입력하세요.', 'miscellaneous']
   }
 
   # 사용자가 선택한 옵션
@@ -194,17 +195,60 @@ def planner():
       options_list
   )
 
-  # 선택된 각 옵션에 대해 입력 필드 생성
+  # 사용자 입력 값을 저장하는 딕셔너리
+  user_inputs = {}
+
+  # 사용자가 선택한 옵션에 대해 입력 필드 생성하고, 입력 값을 user_inputs에 저장
   for option in options:
       if option in input_fields:
-          globals()[f'my_{option}'] = st.number_input(input_fields[option])
-
-
-  condition = (dfp['age']==my_age) & (dfp['major']==my_major) & (dfp['gender']==my_gender) & (dfp['year_in_school']==my_yis) & (dfp['preferred_payment_method']==my_ppm)
-  matching_indexes = dfp.index[condition].tolist()
-  st.write(matching_indexes)
+          user_inputs[input_fields[option][1]] = st.number_input(input_fields[option][0])
 
   
+  # 조건문과 그에 해당하는 인덱스를 리스트로 가져오기
+  condition = (dfp['year_in_school']==my_yis) & (dfp['preferred_payment_method']==my_ppm)
+  matching_indexes = dfp.index[condition].tolist()
+
+  selected_rows = dfp.loc[matching_indexes]
+  
+  # my_income에 따른 'classified_profit' 값 매핑을 위한 딕셔너리 생성
+  income_to_profit = {
+      range(0, 1000): 'under 1000',
+      range(1000, 1500): '1000-1500',
+      range(1500, 2000): '1500-2000',
+      range(2000, 2501): '2000-2500'
+  }
+
+  # my_income에 해당하는 'classified_profit' 값을 찾기
+  for income_range, profit_class in income_to_profit.items():
+      if my_income in income_range:
+          classified_profit_value = profit_class
+          break
+
+  # 찾은 'classified_profit' 값에 해당하는 행 선택
+  selected_rows = selected_rows.loc[selected_rows['classified_profit'] == classified_profit_value]
+
+  # 사용할 (value가 숫자인)columns만 남기기
+  selected_rows = selected_rows.drop(columns=['age', 'gender', 'year_in_school', 'major', 'tuition', 'preferred_payment_method', 'classified_profit'])
+  result = pd.DataFrame(data=[selected_rows.min(), selected_rows.mean(), selected_rows.max()], index=['min', 'mean', 'max'])
+  st.write(result)
+
+  if st.button("실행", type='primary'):
+    col1, col2 = st.columns([5, 5])
+    for cate in input_fields:
+        with col1:
+            # user_inputs 딕셔너리를 사용하여 해당 카테고리의 사용자 입력 값이 있는지 확인
+            if input_fields[cate][1] in user_inputs and user_inputs[input_fields[cate][1]] is not None:
+                # 사용자 입력 값이 존재하면, 그 값을 기본값으로 사용
+                default_value = user_inputs[input_fields[cate][1]]
+            else:
+                # 사용자 입력 값이 없으면, 평균값을 기본값으로 사용
+                default_value = result.loc['mean', input_fields[cate][1]]
+            
+            # 슬라이더 생성
+            st.slider(cate, result.loc['min', input_fields[cate][1]], result.loc['max', input_fields[cate][1]], default_value)
+  else:
+    st.write("")
+
   # 아래 결과화면은 버튼을 누르면 실행되게
   
   # if st.button("실행", type="primary", use_container_width=True) == False:
@@ -215,7 +259,11 @@ def planner():
   # else:
   #   st.text("고정지출이 적당해요. 잘하고 있어요!")
   #   st.text(f"변동지출 가능액: {available_variable}")
-  result = pd.DataFrame()
+  
+  # 보류
+  # cols_to_drop = [col for col in input_fields[options][1]]
+  # selected_rows = dfp.loc[matching_indexes].drop(columns=cols_to_drop)
+  # st.write(selected_rows)
 
 
   #   # 이전에 데이터프레임 만들고 파일에 입력
