@@ -143,7 +143,7 @@ def pattern_analyis():
       st.pyplot(g)
 
 # 기본 정보에 따른 수입과 변동지출
-  with st.expander("**기본 정보에 따른 총수익-변동지출 그래프**"):
+  with st.expander(f"**{standard}에 따른 총수익-변동지출 그래프**"):
     sns.set_theme()
     g = sns.lmplot(
       data=analyzed_data,
