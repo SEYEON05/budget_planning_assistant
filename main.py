@@ -36,9 +36,11 @@ with st.sidebar:
   for menu in menus.keys():
     # 버튼을 클릭 시, menu에 클릭된 값이 할당됨. 
     if st.button(menu, use_container_width=True, type='primary' if st.session_state['page']==menu else 'secondary'):
-      st.session_state['page'] = menu
-      st.rerun()  # 자동 새로고침
+      with st.spinner('페이지를 불러오는 중...'):
+        st.session_state['page'] = menu
+        st.rerun()  # 자동 새로고침
 
 for menu in menus.keys():
   if st.session_state['page']==menu:
-    menus[menu]()
+    with st.spinner('페이지를 불러오는 중...'):
+      menus[menu]()
