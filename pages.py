@@ -227,7 +227,7 @@ def planner():
   if st.button("실행", type='primary',use_container_width=True):
     with st.expander("See explanation"):
       st.info("""이 프로그램은 사용자가 앞서 입력한 정보를 기반으로, 나와 비슷한 조건의 사용자 데이터를 골라내어 나의 지출수준을 분석한다.
-              아래 슬라이더의 가장 왼쪽 값은 나와 비슷한 조건의 사용자들이 각 지출항목에 사용한 최솟값이고, 가장 오른쪽 값은 사용한 최댓값이다.""")
+              아래 슬라이더의 가장 왼쪽 값은 나와 비슷한 조건의 사용자들이 각 항목에 사용한 지출 최솟값이고, 가장 오른쪽 값은 사용한 지출 최댓값이다.""")
       st.select_slider('예시', options=['min', 'mean', 'max'], value=('mean'))
     col1, col2 = st.columns([5, 5])
     
